@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no, viewport-fit=cover" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="theme-color" content="#1a1a2e" />
+    <title>Ruby's Frisbee</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <canvas id="game"></canvas>
+
+    <div id="ui">
+      <div id="hud" class="hud hidden">
+        <span id="score">Score: 0</span>
+        <span id="combo" class="combo"></span>
+        <span id="lives">Lives: 3</span>
+      </div>
+
+      <div id="menu" class="panel">
+        <h1>Ruby's Frisbee</h1>
+        <p>Catch the frisbees before they hit the ground!</p>
+        <p id="menu-high">High Score: 0</p>
+        <button id="play-btn" class="btn">Play</button>
+      </div>
+
+      <div id="gameover" class="panel hidden">
+        <h1>Game Over</h1>
+        <p id="final-score">Score: 0</p>
+        <p id="gameover-high">Best: 0</p>
+        <button id="restart-btn" class="btn">Play Again</button>
+        <button id="menu-btn" class="btn" style="background:#455a64">Main Menu</button>
+      </div>
+    </div>
+
+    <div id="controls" class="hidden">
+      <div class="control-group">
+        <button id="left-btn" class="touch-btn" aria-label="Move left">←</button>
+        <button id="right-btn" class="touch-btn" aria-label="Move right">→</button>
+      </div>
+      <button id="jump-btn" class="touch-btn jump" aria-label="Jump">Jump</button>
+    </div>
+
+    <script src="game.js"></script>
+  </body>
+</html>
