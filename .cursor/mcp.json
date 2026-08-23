@@ -1,0 +1,12 @@
+{
+  "mcpServers": {
+    "unity": {
+      "command": "unity",
+      "args": [
+        "mcp",
+        "--project-path",
+        "/Users/patreilly/dev/ruby-frisbee/ruby-frisbee/RubyFrisbee"
+      ]
+    }
+  }
+}
