@@ -33,7 +33,16 @@ namespace RubyFrisbee.Core
             }
 
             Instance = this;
+            State = GameState.Menu;
             Lives = startingLives;
+        }
+
+        void OnDestroy()
+        {
+            if (Instance == this)
+            {
+                Instance = null;
+            }
         }
 
         public void StartGame()

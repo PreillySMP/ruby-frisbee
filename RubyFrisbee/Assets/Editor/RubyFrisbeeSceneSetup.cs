@@ -145,7 +145,7 @@ namespace RubyFrisbee.Editor
             catchZone.offset = new Vector2(0.25f, 0.1f);
 
             var controller = ruby.AddComponent<RubyController>();
-            var groundMask = 1 << groundLayer;
+            LayerMask groundMask = 1 << groundLayer;
             SetPrivateField(controller, "groundLayer", groundMask);
 
             return ruby;
@@ -160,7 +160,8 @@ namespace RubyFrisbee.Editor
 
         static Frisbee CreateFrisbeePrefab()
         {
-            var frisbeeGo = CreateSpriteObject("Frisbee", Vector3.zero, new Vector2(0.7f, 0.7f), new Color(0.95f, 0.45f, 0.15f));
+            var frisbeeGo = CreateSpriteObject("Frisbee", Vector3.zero, new Vector2(1f, 1f), new Color(0.95f, 0.45f, 0.15f), GetFrisbeeSprite());
+            frisbeeGo.GetComponent<SpriteRenderer>().sortingOrder = 10;
             frisbeeGo.tag = "Frisbee";
 
             var rb = frisbeeGo.AddComponent<Rigidbody2D>();
@@ -296,40 +297,78 @@ namespace RubyFrisbee.Editor
             return button;
         }
 
-        static GameObject CreateSpriteObject(string name, Vector3 position, Vector2 size, Color color)
+        static GameObject CreateSpriteObject(string name, Vector3 position, Vector2 size, Color color, Sprite sprite = null)
         {
             var go = new GameObject(name);
             go.transform.position = position;
 
             var spriteRenderer = go.AddComponent<SpriteRenderer>();
-            spriteRenderer.sprite = GetPlaceholderSprite();
+            spriteRenderer.sprite = sprite != null ? sprite : GetPlaceholderSprite();
             spriteRenderer.color = color;
             go.transform.localScale = new Vector3(size.x, size.y, 1f);
 
             return go;
         }
 
-        static Sprite placeholderSprite;
+        const string PixelSpritePath = "Assets/Sprites/Pixel.png";
+        const string FrisbeeSpritePath = "Assets/Sprites/Frisbee.png";
 
         static Sprite GetPlaceholderSprite()
         {
-            if (placeholderSprite != null)
+            return LoadOrCreateSprite(PixelSpritePath, 4, fillCircle: false, pixelsPerUnit: 4f);
+        }
+
+        static Sprite GetFrisbeeSprite()
+        {
+            return LoadOrCreateSprite(FrisbeeSpritePath, 64, fillCircle: true, pixelsPerUnit: 64f);
+        }
+
+        static Sprite LoadOrCreateSprite(string path, int size, bool fillCircle, float pixelsPerUnit)
+        {
+            var existing = AssetDatabase.LoadAssetAtPath<Sprite>(path);
+            if (existing != null)
             {
-                return placeholderSprite;
+                return existing;
             }
 
-            var texture = new Texture2D(4, 4);
-            for (var y = 0; y < 4; y++)
+            var texture = new Texture2D(size, size, TextureFormat.RGBA32, false);
+            var center = (size - 1) * 0.5f;
+            var radius = size * 0.5f;
+            for (var y = 0; y < size; y++)
             {
-                for (var x = 0; x < 4; x++)
+                for (var x = 0; x < size; x++)
                 {
-                    texture.SetPixel(x, y, Color.white);
+                    if (!fillCircle)
+                    {
+                        texture.SetPixel(x, y, Color.white);
+                        continue;
+                    }
+
+                    var dx = x - center;
+                    var dy = y - center;
+                    texture.SetPixel(x, y, dx * dx + dy * dy <= radius * radius ? Color.white : Color.clear);
                 }
             }
 
             texture.Apply();
-            placeholderSprite = Sprite.Create(texture, new Rect(0, 0, 4, 4), new Vector2(0.5f, 0.5f), 4f);
-            return placeholderSprite;
+            var directory = System.IO.Path.GetDirectoryName(path);
+            if (!string.IsNullOrEmpty(directory) && !AssetDatabase.IsValidFolder(directory))
+            {
+                CreateFolder(directory.Replace('\\', '/'));
+            }
+
+            System.IO.File.WriteAllBytes(path, texture.EncodeToPNG());
+            AssetDatabase.ImportAsset(path, ImportAssetOptions.ForceUpdate);
+
+            var importer = (TextureImporter)AssetImporter.GetAtPath(path);
+            importer.textureType = TextureImporterType.Sprite;
+            importer.spritePixelsPerUnit = pixelsPerUnit;
+            importer.filterMode = FilterMode.Point;
+            importer.mipmapEnabled = false;
+            importer.alphaIsTransparency = true;
+            importer.SaveAndReimport();
+
+            return AssetDatabase.LoadAssetAtPath<Sprite>(path);
         }
 
         static GameObject CreatePanel(Transform parent, string name, Color color)
