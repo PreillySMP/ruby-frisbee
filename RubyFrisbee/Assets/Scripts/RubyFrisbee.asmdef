@@ -3,7 +3,8 @@
     "rootNamespace": "RubyFrisbee",
     "references": [
         "Unity.TextMeshPro",
-        "Unity.InputSystem"
+        "Unity.InputSystem",
+        "RubysFrisbee.Assets.Runtime"
     ],
     "includePlatforms": [],
     "excludePlatforms": [],

@@ -1,4 +1,5 @@
 using RubyFrisbee.Core;
+using RubyFrisbee.Player;
 using TMPro;
 using UnityEngine;
 using UnityEngine.UI;
@@ -6,7 +7,7 @@ using UnityEngine.UI;
 namespace RubyFrisbee.UI
 {
     /// <summary>
-    /// HUD and menu flow for score, lives, and game state screens.
+    /// HUD and menu flow for score, lives (with paw-print icons), and game state screens.
     /// </summary>
     public class GameUI : MonoBehaviour
     {
@@ -16,6 +17,11 @@ namespace RubyFrisbee.UI
         [SerializeField] TextMeshProUGUI livesText;
         [SerializeField] TextMeshProUGUI highScoreText;
 
+        [Header("Paw Life Icons (Optional)")]
+        [SerializeField] Image[] pawLifeIcons;
+        [SerializeField] Sprite pawFullSprite;
+        [SerializeField] Sprite pawEmptySprite;
+
         [Header("Panels")]
         [SerializeField] GameObject menuPanel;
         [SerializeField] GameObject hudPanel;
@@ -23,13 +29,21 @@ namespace RubyFrisbee.UI
 
         [Header("Menu")]
         [SerializeField] TextMeshProUGUI menuHighScoreText;
+        [SerializeField] TextMeshProUGUI menuMoodText;
         [SerializeField] Button playButton;
+        [SerializeField] Button menuPetButton;
+        [SerializeField] Button menuTreatButton;
+        [SerializeField] Button menuBallButton;
 
         [Header("Game Over")]
         [SerializeField] TextMeshProUGUI finalScoreText;
         [SerializeField] TextMeshProUGUI gameOverHighScoreText;
+        [SerializeField] TextMeshProUGUI gameOverMoodText;
         [SerializeField] Button restartButton;
         [SerializeField] Button menuButton;
+        [SerializeField] Button gameOverPetButton;
+        [SerializeField] Button gameOverTreatButton;
+        [SerializeField] Button gameOverBallButton;
 
         [Header("Mobile")]
         [SerializeField] MobileControlsUI mobileControls;
@@ -39,6 +53,19 @@ namespace RubyFrisbee.UI
             playButton?.onClick.AddListener(OnPlayClicked);
             restartButton?.onClick.AddListener(OnPlayClicked);
             menuButton?.onClick.AddListener(OnMenuClicked);
+
+            menuPetButton?.onClick.AddListener(OnPetRubyClicked);
+            menuTreatButton?.onClick.AddListener(OnTossTreatClicked);
+            menuBallButton?.onClick.AddListener(OnTossBallClicked);
+
+            gameOverPetButton?.onClick.AddListener(OnPetRubyClicked);
+            gameOverTreatButton?.onClick.AddListener(OnTossTreatClicked);
+            gameOverBallButton?.onClick.AddListener(OnTossBallClicked);
+
+            if (RubyStage.Instance != null)
+            {
+                RubyStage.Instance.OnMoodChanged += HandleMoodChanged;
+            }
 
             if (ScoreManager.Instance != null)
             {
@@ -57,6 +84,11 @@ namespace RubyFrisbee.UI
 
         void OnDestroy()
         {
+            if (RubyStage.Instance != null)
+            {
+                RubyStage.Instance.OnMoodChanged -= HandleMoodChanged;
+            }
+
             if (ScoreManager.Instance != null)
             {
                 ScoreManager.Instance.OnScoreChanged -= HandleScoreChanged;
@@ -71,12 +103,42 @@ namespace RubyFrisbee.UI
 
         void OnPlayClicked()
         {
+            RubyStage.Instance?.PlayUiClick(confirm: true);
             GameManager.Instance?.StartGame();
         }
 
         void OnMenuClicked()
         {
+            RubyStage.Instance?.PlayUiClick(confirm: false);
             GameManager.Instance?.ReturnToMenu();
+        }
+
+        void OnPetRubyClicked()
+        {
+            RubyStage.Instance?.PetRuby();
+        }
+
+        void OnTossTreatClicked()
+        {
+            RubyStage.Instance?.TossTreat();
+        }
+
+        void OnTossBallClicked()
+        {
+            RubyStage.Instance?.TossPlayBall();
+        }
+
+        void HandleMoodChanged(string moodMessage)
+        {
+            if (menuMoodText != null)
+            {
+                menuMoodText.text = moodMessage;
+            }
+
+            if (gameOverMoodText != null)
+            {
+                gameOverMoodText.text = moodMessage;
+            }
         }
 
         void HandleScoreChanged(int score, int combo, int highScore)
@@ -117,6 +179,21 @@ namespace RubyFrisbee.UI
             if (livesText != null)
             {
                 livesText.text = $"Lives: {lives}";
+            }
+
+            if (pawLifeIcons != null && pawLifeIcons.Length > 0 && pawFullSprite != null && pawEmptySprite != null)
+            {
+                for (int i = 0; i < pawLifeIcons.Length; i++)
+                {
+                    if (pawLifeIcons[i] == null)
+                    {
+                        continue;
+                    }
+
+                    bool hasLife = i < lives;
+                    pawLifeIcons[i].sprite = hasLife ? pawFullSprite : pawEmptySprite;
+                    pawLifeIcons[i].color = hasLife ? Color.white : new Color(1f, 1f, 1f, 0.45f);
+                }
             }
         }
 

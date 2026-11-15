@@ -52,3 +52,29 @@ TagManager:
   - name: UI
     uniqueID: 1234567893
     locked: 0
+  - name: RF_Background
+    uniqueID: 412530534
+    locked: 0
+  - name: RF_Midground
+    uniqueID: 282510505
+    locked: 0
+  - name: RF_Ground
+    uniqueID: 94686829
+    locked: 0
+  - name: RF_Props
+    uniqueID: 550448375
+    locked: 0
+  - name: RF_Character
+    uniqueID: 2034418341
+    locked: 0
+  - name: RF_Projectiles
+    uniqueID: 95800493
+    locked: 0
+  - name: RF_Effects
+    uniqueID: 355325089
+    locked: 0
+  - name: RF_UI
+    uniqueID: 987397606
+    locked: 0
+  m_RenderingLayers:
+  - Default

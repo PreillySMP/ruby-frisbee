@@ -1,0 +1,60 @@
+{
+  "targetUnityVersion": "6000.0.34f1",
+  "renderPipeline": "Built-in 2D",
+  "packageType": "Auto-configuring unitypackage; native generated assets are built inside Unity after import",
+  "textureCount": 425,
+  "animationClipDefinitions": 25,
+  "rubyAnimatorStates": 15,
+  "rubyAnimatorTransitions": 48,
+  "effectControllers": 7,
+  "spriteAtlasDefinitions": 8,
+  "audioClips": 14,
+  "sortingLayers": [
+    "RF_Background",
+    "RF_Midground",
+    "RF_Ground",
+    "RF_Props",
+    "RF_Character",
+    "RF_Projectiles",
+    "RF_Effects",
+    "RF_UI"
+  ],
+  "csharpFilesSyntaxParsed": 14,
+  "csharpSyntaxErrors": 0,
+  "allClipSpritePathsResolve": true,
+  "allControllerStatesReachable": true,
+  "allMixerLocalReferencesResolve": true,
+  "nativeMixerObjects": 22,
+  "mixerSnapshots": {
+    "Gameplay": [
+      -10,
+      0,
+      -3,
+      -18
+    ],
+    "Menu": [
+      -6,
+      -8,
+      -2,
+      -24
+    ],
+    "Paused": [
+      -18,
+      -80,
+      -4,
+      -30
+    ]
+  },
+  "editorAssemblyExcludedFromPlayers": true,
+  "unityEditorAvailable": false,
+  "unityCompilationTested": false,
+  "unityImportTested": false,
+  "nativeAtlasPackingTested": false,
+  "playModeTested": false,
+  "originalProjectModified": false,
+  "notes": [
+    "Successful offline syntax/data/archive checks are not a substitute for Unity API compilation or native import.",
+    "The importer writes a separate SetupReport.json only after native asset creation and validation in the users Editor.",
+    "Existing game logic still needs to feed the visual driver and audio/effect cues."
+  ]
+}

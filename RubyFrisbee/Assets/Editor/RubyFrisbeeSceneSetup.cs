@@ -41,7 +41,12 @@ namespace RubyFrisbee.Editor
             AssetDatabase.SaveAssets();
             AssetDatabase.Refresh();
 
-            Debug.Log("Ruby's Frisbee scene is ready! Press Play to start. Controls: Arrow keys / A-D to move, Space / W to jump.");
+            if (AssetDatabase.LoadAssetAtPath<GameObject>("Assets/RubysFrisbeeAssets/Generated/Prefabs/RubyVisual.prefab") != null)
+            {
+                ApplyRubyArt.Apply();
+            }
+
+            Debug.Log("Ruby's Frisbee scene is ready! Press Play to start. Controls: Arrow keys / A-D to move, Space / W to jump, Shift / S to dash.");
         }
 
         static void EnsureFolders()

@@ -1,0 +1,94 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 22de00685c185f60a371f1a6d362d440, type: 3}
+  m_Name: RubyAudioBank
+  m_EditorClassIdentifier: 
+  mixer: {fileID: 24100000, guid: ab68cd013f2a5844a1a2d27e842c2531, type: 2}
+  gameplay: {fileID: 24500001, guid: ab68cd013f2a5844a1a2d27e842c2531, type: 2}
+  menu: {fileID: 24500002, guid: ab68cd013f2a5844a1a2d27e842c2531, type: 2}
+  paused: {fileID: 24500003, guid: ab68cd013f2a5844a1a2d27e842c2531, type: 2}
+  entries:
+  - key: ambience_stream_loop
+    clip: {fileID: 8300000, guid: ed8a38fba88750b2b6d01f82a02b66e6, type: 3}
+    group: {fileID: 24300009, guid: ab68cd013f2a5844a1a2d27e842c2531, type: 2}
+    volume: 1
+    loop: 1
+  - key: catch
+    clip: {fileID: 8300000, guid: fd47527118a858c39d524259f2c131ba, type: 3}
+    group: {fileID: 24300007, guid: ab68cd013f2a5844a1a2d27e842c2531, type: 2}
+    volume: 1
+    loop: 0
+  - key: combo
+    clip: {fileID: 8300000, guid: 11c182963b0155c6a396fd54c9e41951, type: 3}
+    group: {fileID: 24300007, guid: ab68cd013f2a5844a1a2d27e842c2531, type: 2}
+    volume: 1
+    loop: 0
+  - key: footstep
+    clip: {fileID: 8300000, guid: fe628d42497c59a6b7d6ff2dacd7c98c, type: 3}
+    group: {fileID: 24300007, guid: ab68cd013f2a5844a1a2d27e842c2531, type: 2}
+    volume: 1
+    loop: 0
+  - key: game_over
+    clip: {fileID: 8300000, guid: a874c807fe1f57a5b3314d0b7d75f980, type: 3}
+    group: {fileID: 24300007, guid: ab68cd013f2a5844a1a2d27e842c2531, type: 2}
+    volume: 1
+    loop: 0
+  - key: happy_bark
+    clip: {fileID: 8300000, guid: b28578da7bfc5771b3af404e05728355, type: 3}
+    group: {fileID: 24300007, guid: ab68cd013f2a5844a1a2d27e842c2531, type: 2}
+    volume: 1
+    loop: 0
+  - key: high_score
+    clip: {fileID: 8300000, guid: d3126cbefb565f10a9d62d1303585490, type: 3}
+    group: {fileID: 24300007, guid: ab68cd013f2a5844a1a2d27e842c2531, type: 2}
+    volume: 1
+    loop: 0
+  - key: jump
+    clip: {fileID: 8300000, guid: 06302edff5cb5b09a6450423fc31a9a4, type: 3}
+    group: {fileID: 24300007, guid: ab68cd013f2a5844a1a2d27e842c2531, type: 2}
+    volume: 1
+    loop: 0
+  - key: land
+    clip: {fileID: 8300000, guid: 85c92e5edc3b5cdb94023680a36ec7e9, type: 3}
+    group: {fileID: 24300007, guid: ab68cd013f2a5844a1a2d27e842c2531, type: 2}
+    volume: 1
+    loop: 0
+  - key: miss
+    clip: {fileID: 8300000, guid: a35bd55ef4ee5c7b82aa6333d983c6a0, type: 3}
+    group: {fileID: 24300007, guid: ab68cd013f2a5844a1a2d27e842c2531, type: 2}
+    volume: 1
+    loop: 0
+  - key: music_loop
+    clip: {fileID: 8300000, guid: 8afa79742a30588d90ac21603704f18a, type: 3}
+    group: {fileID: 24300006, guid: ab68cd013f2a5844a1a2d27e842c2531, type: 2}
+    volume: 1
+    loop: 1
+  - key: ring_whoosh
+    clip: {fileID: 8300000, guid: 422c4d148bbd533f81e9555f71e4f856, type: 3}
+    group: {fileID: 24300007, guid: ab68cd013f2a5844a1a2d27e842c2531, type: 2}
+    volume: 1
+    loop: 0
+  - key: ui_click
+    clip: {fileID: 8300000, guid: 002793b3c66a580b90ddb967a73e325b, type: 3}
+    group: {fileID: 24300008, guid: ab68cd013f2a5844a1a2d27e842c2531, type: 2}
+    volume: 1
+    loop: 0
+  - key: ui_confirm
+    clip: {fileID: 8300000, guid: 01fdb093b83d54769909727c4a1a1972, type: 3}
+    group: {fileID: 24300008, guid: ab68cd013f2a5844a1a2d27e842c2531, type: 2}
+    volume: 1
+    loop: 0
+  - key: ruby_bark
+    clip: {fileID: 8300000, guid: 20508ec70f3c547ff9bcd72fee984172, type: 3}
+    group: {fileID: 24300007, guid: ab68cd013f2a5844a1a2d27e842c2531, type: 2}
+    volume: 0.95
+    loop: 0

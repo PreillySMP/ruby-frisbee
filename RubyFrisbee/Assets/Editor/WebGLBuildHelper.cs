@@ -43,7 +43,7 @@ namespace RubyFrisbee.Editor
         return;
       }
 
-      var outputPath = System.IO.Path.Combine(DefaultBuildFolder, "index.html");
+      var outputPath = DefaultBuildFolder;
       var report = BuildPipeline.BuildPlayer(
         new[] { ScenePath },
         outputPath,

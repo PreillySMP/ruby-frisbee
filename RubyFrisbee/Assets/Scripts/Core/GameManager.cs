@@ -20,6 +20,7 @@ namespace RubyFrisbee.Core
 
         public GameState State { get; private set; } = GameState.Menu;
         public int Lives { get; private set; }
+        public int MaxLives => startingLives;
 
         public event System.Action<GameState> OnStateChanged;
         public event System.Action<int> OnLivesChanged;
@@ -48,9 +49,9 @@ namespace RubyFrisbee.Core
         public void StartGame()
         {
             Lives = startingLives;
+            ScoreManager.Instance?.ResetSession();
             SetState(GameState.Playing);
             OnLivesChanged?.Invoke(Lives);
-            ScoreManager.Instance?.ResetSession();
         }
 
         public void RegisterMiss()
@@ -61,7 +62,7 @@ namespace RubyFrisbee.Core
             }
 
             ScoreManager.Instance?.BreakCombo();
-            Lives--;
+            Lives = Mathf.Max(0, Lives - 1);
 
             OnLivesChanged?.Invoke(Lives);
 
@@ -73,12 +74,25 @@ namespace RubyFrisbee.Core
 
         public void RegisterCatch(bool wasAirCatch)
         {
+            RegisterCatch(wasAirCatch, false, false, false, Vector3.zero);
+        }
+
+        public void RegisterCatch(bool wasAirCatch, bool wasApexCatch, bool wasDivingCatch, bool wasBonusBall, Vector3 catchPosition)
+        {
             if (State != GameState.Playing)
             {
                 return;
             }
 
-            ScoreManager.Instance?.AddCatch(wasAirCatch);
+            bool restoredLife = false;
+            if (wasBonusBall && Lives < startingLives)
+            {
+                Lives = Mathf.Min(startingLives, Lives + 1);
+                restoredLife = true;
+                OnLivesChanged?.Invoke(Lives);
+            }
+
+            ScoreManager.Instance?.AddCatch(wasAirCatch, wasApexCatch, wasDivingCatch, wasBonusBall, restoredLife, catchPosition);
         }
 
         public void ReturnToMenu()

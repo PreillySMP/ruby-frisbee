@@ -1,0 +1,2557 @@
+{
+  "libraryVersion": "1.0",
+  "textureSources": [
+    {
+      "source": "Characters/Run_Original/frames/ruby_run_00.png",
+      "unity": "Textures/Characters/Run/ruby_run_00.png",
+      "width": 512,
+      "height": 384
+    },
+    {
+      "source": "Characters/Run_Original/frames/ruby_run_01.png",
+      "unity": "Textures/Characters/Run/ruby_run_01.png",
+      "width": 512,
+      "height": 384
+    },
+    {
+      "source": "Characters/Run_Original/frames/ruby_run_02.png",
+      "unity": "Textures/Characters/Run/ruby_run_02.png",
+      "width": 512,
+      "height": 384
+    },
+    {
+      "source": "Characters/Run_Original/frames/ruby_run_03.png",
+      "unity": "Textures/Characters/Run/ruby_run_03.png",
+      "width": 512,
+      "height": 384
+    },
+    {
+      "source": "Characters/Run_Original/frames/ruby_run_04.png",
+      "unity": "Textures/Characters/Run/ruby_run_04.png",
+      "width": 512,
+      "height": 384
+    },
+    {
+      "source": "Characters/Run_Original/frames/ruby_run_05.png",
+      "unity": "Textures/Characters/Run/ruby_run_05.png",
+      "width": 512,
+      "height": 384
+    },
+    {
+      "source": "Characters/Run_Original/frames/ruby_run_06.png",
+      "unity": "Textures/Characters/Run/ruby_run_06.png",
+      "width": 512,
+      "height": 384
+    },
+    {
+      "source": "Characters/Idle/frames_256/idle/ruby_idle_000.png",
+      "unity": "Textures/Characters/Idle/ruby_idle_000.png",
+      "width": 256,
+      "height": 256
+    },
+    {
+      "source": "Characters/Idle/frames_256/idle/ruby_idle_001.png",
+      "unity": "Textures/Characters/Idle/ruby_idle_001.png",
+      "width": 256,
+      "height": 256
+    },
+    {
+      "source": "Characters/Idle/frames_256/idle/ruby_idle_002.png",
+      "unity": "Textures/Characters/Idle/ruby_idle_002.png",
+      "width": 256,
+      "height": 256
+    },
+    {
+      "source": "Characters/Idle/frames_256/idle/ruby_idle_003.png",
+      "unity": "Textures/Characters/Idle/ruby_idle_003.png",
+      "width": 256,
+      "height": 256
+    },
+    {
+      "source": "Characters/Idle/frames_256/idle/ruby_idle_004.png",
+      "unity": "Textures/Characters/Idle/ruby_idle_004.png",
+      "width": 256,
+      "height": 256
+    },
+    {
+      "source": "Characters/Idle/frames_256/idle/ruby_idle_005.png",
+      "unity": "Textures/Characters/Idle/ruby_idle_005.png",
+      "width": 256,
+      "height": 256
+    },
+    {
+      "source": "Characters/Idle/frames_256/idle/ruby_idle_006.png",
+      "unity": "Textures/Characters/Idle/ruby_idle_006.png",
+      "width": 256,
+      "height": 256
+    },
+    {
+      "source": "Characters/Idle/frames_256/idle/ruby_idle_007.png",
+      "unity": "Textures/Characters/Idle/ruby_idle_007.png",
+      "width": 256,
+      "height": 256
+    },
+    {
+      "source": "Characters/Idle/frames_256/idle/ruby_idle_008.png",
+      "unity": "Textures/Characters/Idle/ruby_idle_008.png",
+      "width": 256,
+      "height": 256
+    },
+    {
+      "source": "Characters/Idle/frames_256/idle/ruby_idle_009.png",
+      "unity": "Textures/Characters/Idle/ruby_idle_009.png",
+      "width": 256,
+      "height": 256
+    },
+    {
+      "source": "Characters/Idle/frames_256/idle/ruby_idle_010.png",
+      "unity": "Textures/Characters/Idle/ruby_idle_010.png",
+      "width": 256,
+      "height": 256
+    },
+    {
+      "source": "Characters/Idle/frames_256/idle/ruby_idle_011.png",
+      "unity": "Textures/Characters/Idle/ruby_idle_011.png",
+      "width": 256,
+      "height": 256
+    },
+    {
+      "source": "Characters/Idle/frames_256/idle/ruby_idle_012.png",
+      "unity": "Textures/Characters/Idle/ruby_idle_012.png",
+      "width": 256,
+      "height": 256
+    },
+    {
+      "source": "Characters/Idle/frames_256/idle/ruby_idle_013.png",
+      "unity": "Textures/Characters/Idle/ruby_idle_013.png",
+      "width": 256,
+      "height": 256
+    },
+    {
+      "source": "Characters/Idle/frames_256/idle/ruby_idle_014.png",
+      "unity": "Textures/Characters/Idle/ruby_idle_014.png",
+      "width": 256,
+      "height": 256
+    },
+    {
+      "source": "Characters/Idle/frames_256/idle/ruby_idle_015.png",
+      "unity": "Textures/Characters/Idle/ruby_idle_015.png",
+      "width": 256,
+      "height": 256
+    },
+    {
+      "source": "Characters/Idle/frames_256/idle/ruby_idle_016.png",
+      "unity": "Textures/Characters/Idle/ruby_idle_016.png",
+      "width": 256,
+      "height": 256
+    },
+    {
+      "source": "Characters/Idle/frames_256/idle/ruby_idle_017.png",
+      "unity": "Textures/Characters/Idle/ruby_idle_017.png",
+      "width": 256,
+      "height": 256
+    },
+    {
+      "source": "Characters/Idle/frames_256/idle/ruby_idle_018.png",
+      "unity": "Textures/Characters/Idle/ruby_idle_018.png",
+      "width": 256,
+      "height": 256
+    },
+    {
+      "source": "Characters/Idle/frames_256/idle/ruby_idle_019.png",
+      "unity": "Textures/Characters/Idle/ruby_idle_019.png",
+      "width": 256,
+      "height": 256
+    },
+    {
+      "source": "Characters/Idle/frames_256/idle/ruby_idle_020.png",
+      "unity": "Textures/Characters/Idle/ruby_idle_020.png",
+      "width": 256,
+      "height": 256
+    },
+    {
+      "source": "Characters/Idle/frames_256/idle/ruby_idle_021.png",
+      "unity": "Textures/Characters/Idle/ruby_idle_021.png",
+      "width": 256,
+      "height": 256
+    },
+    {
+      "source": "Characters/Idle/frames_256/idle/ruby_idle_022.png",
+      "unity": "Textures/Characters/Idle/ruby_idle_022.png",
+      "width": 256,
+      "height": 256
+    },
+    {
+      "source": "Characters/Idle/frames_256/idle/ruby_idle_023.png",
+      "unity": "Textures/Characters/Idle/ruby_idle_023.png",
+      "width": 256,
+      "height": 256
+    },
+    {
+      "source": "Characters/Idle/frames_256/idle/ruby_idle_024.png",
+      "unity": "Textures/Characters/Idle/ruby_idle_024.png",
+      "width": 256,
+      "height": 256
+    },
+    {
+      "source": "Characters/Idle/frames_256/idle/ruby_idle_025.png",
+      "unity": "Textures/Characters/Idle/ruby_idle_025.png",
+      "width": 256,
+      "height": 256
+    },
+    {
+      "source": "Characters/Idle/frames_256/idle/ruby_idle_026.png",
+      "unity": "Textures/Characters/Idle/ruby_idle_026.png",
+      "width": 256,
+      "height": 256
+    },
+    {
+      "source": "Characters/Idle/frames_256/idle/ruby_idle_027.png",
+      "unity": "Textures/Characters/Idle/ruby_idle_027.png",
+      "width": 256,
+      "height": 256
+    },
+    {
+      "source": "Characters/Idle/frames_256/idle/ruby_idle_028.png",
+      "unity": "Textures/Characters/Idle/ruby_idle_028.png",
+      "width": 256,
+      "height": 256
+    },
+    {
+      "source": "Characters/Idle/frames_256/idle/ruby_idle_029.png",
+      "unity": "Textures/Characters/Idle/ruby_idle_029.png",
+      "width": 256,
+      "height": 256
+    },
+    {
+      "source": "Characters/Idle/frames_256/idle/ruby_idle_030.png",
+      "unity": "Textures/Characters/Idle/ruby_idle_030.png",
+      "width": 256,
+      "height": 256
+    },
+    {
+      "source": "Characters/Idle/frames_256/idle/ruby_idle_031.png",
+      "unity": "Textures/Characters/Idle/ruby_idle_031.png",
+      "width": 256,
+      "height": 256
+    },
+    {
+      "source": "Characters/Idle/frames_256/idle/ruby_idle_032.png",
+      "unity": "Textures/Characters/Idle/ruby_idle_032.png",
+      "width": 256,
+      "height": 256
+    },
+    {
+      "source": "Characters/Idle/frames_256/idle/ruby_idle_033.png",
+      "unity": "Textures/Characters/Idle/ruby_idle_033.png",
+      "width": 256,
+      "height": 256
+    },
+    {
+      "source": "Characters/Idle/frames_256/idle/ruby_idle_034.png",
+      "unity": "Textures/Characters/Idle/ruby_idle_034.png",
+      "width": 256,
+      "height": 256
+    },
+    {
+      "source": "Characters/Idle/frames_256/idle/ruby_idle_035.png",
+      "unity": "Textures/Characters/Idle/ruby_idle_035.png",
+      "width": 256,
+      "height": 256
+    },
+    {
+      "source": "Characters/Idle/frames_256/idle/ruby_idle_036.png",
+      "unity": "Textures/Characters/Idle/ruby_idle_036.png",
+      "width": 256,
+      "height": 256
+    },
+    {
+      "source": "Characters/Idle/frames_256/idle/ruby_idle_037.png",
+      "unity": "Textures/Characters/Idle/ruby_idle_037.png",
+      "width": 256,
+      "height": 256
+    },
+    {
+      "source": "Characters/Idle/frames_256/idle/ruby_idle_038.png",
+      "unity": "Textures/Characters/Idle/ruby_idle_038.png",
+      "width": 256,
+      "height": 256
+    },
+    {
+      "source": "Characters/Idle/frames_256/idle/ruby_idle_039.png",
+      "unity": "Textures/Characters/Idle/ruby_idle_039.png",
+      "width": 256,
+      "height": 256
+    },
+    {
+      "source": "Characters/Idle/frames_256/idle/ruby_idle_040.png",
+      "unity": "Textures/Characters/Idle/ruby_idle_040.png",
+      "width": 256,
+      "height": 256
+    },
+    {
+      "source": "Characters/Idle/frames_256/idle/ruby_idle_041.png",
+      "unity": "Textures/Characters/Idle/ruby_idle_041.png",
+      "width": 256,
+      "height": 256
+    },
+    {
+      "source": "Characters/Idle/frames_256/idle/ruby_idle_042.png",
+      "unity": "Textures/Characters/Idle/ruby_idle_042.png",
+      "width": 256,
+      "height": 256
+    },
+    {
+      "source": "Characters/Idle/frames_256/idle/ruby_idle_043.png",
+      "unity": "Textures/Characters/Idle/ruby_idle_043.png",
+      "width": 256,
+      "height": 256
+    },
+    {
+      "source": "Characters/Idle/frames_256/idle/ruby_idle_044.png",
+      "unity": "Textures/Characters/Idle/ruby_idle_044.png",
+      "width": 256,
+      "height": 256
+    },
+    {
+      "source": "Characters/Idle/frames_256/idle/ruby_idle_045.png",
+      "unity": "Textures/Characters/Idle/ruby_idle_045.png",
+      "width": 256,
+      "height": 256
+    },
+    {
+      "source": "Characters/Idle/frames_256/idle/ruby_idle_046.png",
+      "unity": "Textures/Characters/Idle/ruby_idle_046.png",
+      "width": 256,
+      "height": 256
+    },
+    {
+      "source": "Characters/Idle/frames_256/idle/ruby_idle_047.png",
+      "unity": "Textures/Characters/Idle/ruby_idle_047.png",
+      "width": 256,
+      "height": 256
+    },
+    {
+      "source": "Characters/Idle/frames_256/idle/ruby_idle_048.png",
+      "unity": "Textures/Characters/Idle/ruby_idle_048.png",
+      "width": 256,
+      "height": 256
+    },
+    {
+      "source": "Characters/Idle/frames_256/idle/ruby_idle_049.png",
+      "unity": "Textures/Characters/Idle/ruby_idle_049.png",
+      "width": 256,
+      "height": 256
+    },
+    {
+      "source": "Characters/Idle/frames_256/idle/ruby_idle_050.png",
+      "unity": "Textures/Characters/Idle/ruby_idle_050.png",
+      "width": 256,
+      "height": 256
+    },
+    {
+      "source": "Characters/Idle/frames_256/idle/ruby_idle_051.png",
+      "unity": "Textures/Characters/Idle/ruby_idle_051.png",
+      "width": 256,
+      "height": 256
+    },
+    {
+      "source": "Characters/Idle/frames_256/idle/ruby_idle_052.png",
+      "unity": "Textures/Characters/Idle/ruby_idle_052.png",
+      "width": 256,
+      "height": 256
+    },
+    {
+      "source": "Characters/Idle/frames_256/idle/ruby_idle_053.png",
+      "unity": "Textures/Characters/Idle/ruby_idle_053.png",
+      "width": 256,
+      "height": 256
+    },
+    {
+      "source": "Characters/Idle/frames_256/idle/ruby_idle_054.png",
+      "unity": "Textures/Characters/Idle/ruby_idle_054.png",
+      "width": 256,
+      "height": 256
+    },
+    {
+      "source": "Characters/Idle/frames_256/idle/ruby_idle_055.png",
+      "unity": "Textures/Characters/Idle/ruby_idle_055.png",
+      "width": 256,
+      "height": 256
+    },
+    {
+      "source": "Characters/Idle/frames_256/idle/ruby_idle_056.png",
+      "unity": "Textures/Characters/Idle/ruby_idle_056.png",
+      "width": 256,
+      "height": 256
+    },
+    {
+      "source": "Characters/Idle/frames_256/idle/ruby_idle_057.png",
+      "unity": "Textures/Characters/Idle/ruby_idle_057.png",
+      "width": 256,
+      "height": 256
+    },
+    {
+      "source": "Characters/Idle/frames_256/idle/ruby_idle_058.png",
+      "unity": "Textures/Characters/Idle/ruby_idle_058.png",
+      "width": 256,
+      "height": 256
+    },
+    {
+      "source": "Characters/Idle/frames_256/idle/ruby_idle_059.png",
+      "unity": "Textures/Characters/Idle/ruby_idle_059.png",
+      "width": 256,
+      "height": 256
+    },
+    {
+      "source": "Characters/Idle/frames_256/idle/ruby_idle_060.png",
+      "unity": "Textures/Characters/Idle/ruby_idle_060.png",
+      "width": 256,
+      "height": 256
+    },
+    {
+      "source": "Characters/Idle/frames_256/idle/ruby_idle_061.png",
+      "unity": "Textures/Characters/Idle/ruby_idle_061.png",
+      "width": 256,
+      "height": 256
+    },
+    {
+      "source": "Characters/Idle/frames_256/idle/ruby_idle_062.png",
+      "unity": "Textures/Characters/Idle/ruby_idle_062.png",
+      "width": 256,
+      "height": 256
+    },
+    {
+      "source": "Characters/Idle/frames_256/idle/ruby_idle_063.png",
+      "unity": "Textures/Characters/Idle/ruby_idle_063.png",
+      "width": 256,
+      "height": 256
+    },
+    {
+      "source": "Characters/Idle/frames_256/idle/ruby_idle_064.png",
+      "unity": "Textures/Characters/Idle/ruby_idle_064.png",
+      "width": 256,
+      "height": 256
+    },
+    {
+      "source": "Characters/Idle/frames_256/idle/ruby_idle_065.png",
+      "unity": "Textures/Characters/Idle/ruby_idle_065.png",
+      "width": 256,
+      "height": 256
+    },
+    {
+      "source": "Characters/Idle/frames_256/idle/ruby_idle_066.png",
+      "unity": "Textures/Characters/Idle/ruby_idle_066.png",
+      "width": 256,
+      "height": 256
+    },
+    {
+      "source": "Characters/Idle/frames_256/idle/ruby_idle_067.png",
+      "unity": "Textures/Characters/Idle/ruby_idle_067.png",
+      "width": 256,
+      "height": 256
+    },
+    {
+      "source": "Characters/Idle/frames_256/idle/ruby_idle_068.png",
+      "unity": "Textures/Characters/Idle/ruby_idle_068.png",
+      "width": 256,
+      "height": 256
+    },
+    {
+      "source": "Characters/Idle/frames_256/idle/ruby_idle_069.png",
+      "unity": "Textures/Characters/Idle/ruby_idle_069.png",
+      "width": 256,
+      "height": 256
+    },
+    {
+      "source": "Characters/Idle/frames_256/idle/ruby_idle_070.png",
+      "unity": "Textures/Characters/Idle/ruby_idle_070.png",
+      "width": 256,
+      "height": 256
+    },
+    {
+      "source": "Characters/Idle/frames_256/idle/ruby_idle_071.png",
+      "unity": "Textures/Characters/Idle/ruby_idle_071.png",
+      "width": 256,
+      "height": 256
+    },
+    {
+      "source": "Characters/Idle/frames_256/idle/ruby_idle_072.png",
+      "unity": "Textures/Characters/Idle/ruby_idle_072.png",
+      "width": 256,
+      "height": 256
+    },
+    {
+      "source": "Characters/Idle/frames_256/idle/ruby_idle_073.png",
+      "unity": "Textures/Characters/Idle/ruby_idle_073.png",
+      "width": 256,
+      "height": 256
+    },
+    {
+      "source": "Characters/Idle/frames_256/idle/ruby_idle_074.png",
+      "unity": "Textures/Characters/Idle/ruby_idle_074.png",
+      "width": 256,
+      "height": 256
+    },
+    {
+      "source": "Characters/Idle/frames_256/idle/ruby_idle_075.png",
+      "unity": "Textures/Characters/Idle/ruby_idle_075.png",
+      "width": 256,
+      "height": 256
+    },
+    {
+      "source": "Characters/Idle/frames_256/idle/ruby_idle_076.png",
+      "unity": "Textures/Characters/Idle/ruby_idle_076.png",
+      "width": 256,
+      "height": 256
+    },
+    {
+      "source": "Characters/Idle/frames_256/idle/ruby_idle_077.png",
+      "unity": "Textures/Characters/Idle/ruby_idle_077.png",
+      "width": 256,
+      "height": 256
+    },
+    {
+      "source": "Characters/Idle/frames_256/idle/ruby_idle_078.png",
+      "unity": "Textures/Characters/Idle/ruby_idle_078.png",
+      "width": 256,
+      "height": 256
+    },
+    {
+      "source": "Characters/Idle/frames_256/idle/ruby_idle_079.png",
+      "unity": "Textures/Characters/Idle/ruby_idle_079.png",
+      "width": 256,
+      "height": 256
+    },
+    {
+      "source": "Characters/Idle/frames_256/idle/ruby_idle_080.png",
+      "unity": "Textures/Characters/Idle/ruby_idle_080.png",
+      "width": 256,
+      "height": 256
+    },
+    {
+      "source": "Characters/Idle/frames_256/idle/ruby_idle_081.png",
+      "unity": "Textures/Characters/Idle/ruby_idle_081.png",
+      "width": 256,
+      "height": 256
+    },
+    {
+      "source": "Characters/Idle/frames_256/idle/ruby_idle_082.png",
+      "unity": "Textures/Characters/Idle/ruby_idle_082.png",
+      "width": 256,
+      "height": 256
+    },
+    {
+      "source": "Characters/Idle/frames_256/idle/ruby_idle_083.png",
+      "unity": "Textures/Characters/Idle/ruby_idle_083.png",
+      "width": 256,
+      "height": 256
+    },
+    {
+      "source": "Characters/Idle/frames_256/idle/ruby_idle_084.png",
+      "unity": "Textures/Characters/Idle/ruby_idle_084.png",
+      "width": 256,
+      "height": 256
+    },
+    {
+      "source": "Characters/Idle/frames_256/idle/ruby_idle_085.png",
+      "unity": "Textures/Characters/Idle/ruby_idle_085.png",
+      "width": 256,
+      "height": 256
+    },
+    {
+      "source": "Characters/Idle/frames_256/idle/ruby_idle_086.png",
+      "unity": "Textures/Characters/Idle/ruby_idle_086.png",
+      "width": 256,
+      "height": 256
+    },
+    {
+      "source": "Characters/Idle/frames_256/idle/ruby_idle_087.png",
+      "unity": "Textures/Characters/Idle/ruby_idle_087.png",
+      "width": 256,
+      "height": 256
+    },
+    {
+      "source": "Characters/Idle/frames_256/idle/ruby_idle_088.png",
+      "unity": "Textures/Characters/Idle/ruby_idle_088.png",
+      "width": 256,
+      "height": 256
+    },
+    {
+      "source": "Characters/Idle/frames_256/idle/ruby_idle_089.png",
+      "unity": "Textures/Characters/Idle/ruby_idle_089.png",
+      "width": 256,
+      "height": 256
+    },
+    {
+      "source": "Characters/Idle/frames_256/idle/ruby_idle_090.png",
+      "unity": "Textures/Characters/Idle/ruby_idle_090.png",
+      "width": 256,
+      "height": 256
+    },
+    {
+      "source": "Characters/Idle/frames_256/idle/ruby_idle_091.png",
+      "unity": "Textures/Characters/Idle/ruby_idle_091.png",
+      "width": 256,
+      "height": 256
+    },
+    {
+      "source": "Characters/Idle/frames_256/idle/ruby_idle_092.png",
+      "unity": "Textures/Characters/Idle/ruby_idle_092.png",
+      "width": 256,
+      "height": 256
+    },
+    {
+      "source": "Characters/Idle/frames_256/idle/ruby_idle_093.png",
+      "unity": "Textures/Characters/Idle/ruby_idle_093.png",
+      "width": 256,
+      "height": 256
+    },
+    {
+      "source": "Characters/Idle/frames_256/idle/ruby_idle_094.png",
+      "unity": "Textures/Characters/Idle/ruby_idle_094.png",
+      "width": 256,
+      "height": 256
+    },
+    {
+      "source": "Characters/Idle/frames_256/idle/ruby_idle_095.png",
+      "unity": "Textures/Characters/Idle/ruby_idle_095.png",
+      "width": 256,
+      "height": 256
+    },
+    {
+      "source": "Characters/Idle/frames_256/idle/ruby_idle_096.png",
+      "unity": "Textures/Characters/Idle/ruby_idle_096.png",
+      "width": 256,
+      "height": 256
+    },
+    {
+      "source": "Characters/Jump_Catch/frames_256/ruby_jump_00.png",
+      "unity": "Textures/Characters/Jump/ruby_jump_00.png",
+      "width": 256,
+      "height": 256
+    },
+    {
+      "source": "Characters/Jump_Catch/frames_256/ruby_jump_01.png",
+      "unity": "Textures/Characters/Jump/ruby_jump_01.png",
+      "width": 256,
+      "height": 256
+    },
+    {
+      "source": "Characters/Jump_Catch/frames_256/ruby_jump_02.png",
+      "unity": "Textures/Characters/Jump/ruby_jump_02.png",
+      "width": 256,
+      "height": 256
+    },
+    {
+      "source": "Characters/Jump_Catch/frames_256/ruby_jump_03.png",
+      "unity": "Textures/Characters/Jump/ruby_jump_03.png",
+      "width": 256,
+      "height": 256
+    },
+    {
+      "source": "Characters/Jump_Catch/frames_256/ruby_jump_04.png",
+      "unity": "Textures/Characters/Jump/ruby_jump_04.png",
+      "width": 256,
+      "height": 256
+    },
+    {
+      "source": "Characters/Jump_Catch/frames_256/ruby_jump_05.png",
+      "unity": "Textures/Characters/Jump/ruby_jump_05.png",
+      "width": 256,
+      "height": 256
+    },
+    {
+      "source": "Characters/Jump_Catch/frames_256/ruby_jump_06.png",
+      "unity": "Textures/Characters/Jump/ruby_jump_06.png",
+      "width": 256,
+      "height": 256
+    },
+    {
+      "source": "Characters/Jump_Catch/frames_256/ruby_jump_07.png",
+      "unity": "Textures/Characters/Jump/ruby_jump_07.png",
+      "width": 256,
+      "height": 256
+    },
+    {
+      "source": "Characters/Jump_Catch/frames_256/ruby_jump_08.png",
+      "unity": "Textures/Characters/Jump/ruby_jump_08.png",
+      "width": 256,
+      "height": 256
+    },
+    {
+      "source": "Characters/Jump_Catch/frames_256/ruby_jump_09.png",
+      "unity": "Textures/Characters/Jump/ruby_jump_09.png",
+      "width": 256,
+      "height": 256
+    },
+    {
+      "source": "Characters/Jump_Catch/frames_256/ruby_jump_10.png",
+      "unity": "Textures/Characters/Jump/ruby_jump_10.png",
+      "width": 256,
+      "height": 256
+    },
+    {
+      "source": "Characters/Jump_Catch/frames_256/ruby_jump_11.png",
+      "unity": "Textures/Characters/Jump/ruby_jump_11.png",
+      "width": 256,
+      "height": 256
+    },
+    {
+      "source": "Characters/Jump_Catch/frames_256/ruby_jump_12.png",
+      "unity": "Textures/Characters/Jump/ruby_jump_12.png",
+      "width": 256,
+      "height": 256
+    },
+    {
+      "source": "Characters/Jump_Catch/frames_256/ruby_jump_13.png",
+      "unity": "Textures/Characters/Jump/ruby_jump_13.png",
+      "width": 256,
+      "height": 256
+    },
+    {
+      "source": "Characters/Jump_Catch/frames_256/ruby_jump_14.png",
+      "unity": "Textures/Characters/Jump/ruby_jump_14.png",
+      "width": 256,
+      "height": 256
+    },
+    {
+      "source": "Characters/Jump_Catch/frames_256/ruby_jump_15.png",
+      "unity": "Textures/Characters/Jump/ruby_jump_15.png",
+      "width": 256,
+      "height": 256
+    },
+    {
+      "source": "Characters/Jump_Catch/frames_256/ruby_jump_16.png",
+      "unity": "Textures/Characters/Jump/ruby_jump_16.png",
+      "width": 256,
+      "height": 256
+    },
+    {
+      "source": "Characters/Jump_Catch/frames_256/ruby_jump_17.png",
+      "unity": "Textures/Characters/Jump/ruby_jump_17.png",
+      "width": 256,
+      "height": 256
+    },
+    {
+      "source": "Characters/Jump_Catch/frames_256/ruby_jump_18.png",
+      "unity": "Textures/Characters/Jump/ruby_jump_18.png",
+      "width": 256,
+      "height": 256
+    },
+    {
+      "source": "Characters/Jump_Catch/frames_256/ruby_jump_19.png",
+      "unity": "Textures/Characters/Jump/ruby_jump_19.png",
+      "width": 256,
+      "height": 256
+    },
+    {
+      "source": "Characters/Jump_Catch/frames_256/ruby_jump_20.png",
+      "unity": "Textures/Characters/Jump/ruby_jump_20.png",
+      "width": 256,
+      "height": 256
+    },
+    {
+      "source": "Characters/Jump_Catch/frames_256/ruby_jump_21.png",
+      "unity": "Textures/Characters/Jump/ruby_jump_21.png",
+      "width": 256,
+      "height": 256
+    },
+    {
+      "source": "Characters/Jump_Catch/frames_256/ruby_jump_22.png",
+      "unity": "Textures/Characters/Jump/ruby_jump_22.png",
+      "width": 256,
+      "height": 256
+    },
+    {
+      "source": "Characters/Jump_Catch/frames_256/ruby_jump_23.png",
+      "unity": "Textures/Characters/Jump/ruby_jump_23.png",
+      "width": 256,
+      "height": 256
+    },
+    {
+      "source": "Characters/Jump_Catch/frames_256/ruby_jump_24.png",
+      "unity": "Textures/Characters/Jump/ruby_jump_24.png",
+      "width": 256,
+      "height": 256
+    },
+    {
+      "source": "Characters/Jump_Catch/frames_256/ruby_jump_25.png",
+      "unity": "Textures/Characters/Jump/ruby_jump_25.png",
+      "width": 256,
+      "height": 256
+    },
+    {
+      "source": "Characters/Jump_Catch/frames_256/ruby_jump_26.png",
+      "unity": "Textures/Characters/Jump/ruby_jump_26.png",
+      "width": 256,
+      "height": 256
+    },
+    {
+      "source": "Characters/Jump_Catch/frames_256/ruby_jump_27.png",
+      "unity": "Textures/Characters/Jump/ruby_jump_27.png",
+      "width": 256,
+      "height": 256
+    },
+    {
+      "source": "Characters/Jump_Catch/frames_256/ruby_jump_28.png",
+      "unity": "Textures/Characters/Jump/ruby_jump_28.png",
+      "width": 256,
+      "height": 256
+    },
+    {
+      "source": "Characters/Jump_Catch/frames_256/ruby_jump_29.png",
+      "unity": "Textures/Characters/Jump/ruby_jump_29.png",
+      "width": 256,
+      "height": 256
+    },
+    {
+      "source": "Characters/Jump_Catch/frames_256/ruby_jump_30.png",
+      "unity": "Textures/Characters/Jump/ruby_jump_30.png",
+      "width": 256,
+      "height": 256
+    },
+    {
+      "source": "Characters/Jump_Catch/frames_256/ruby_jump_31.png",
+      "unity": "Textures/Characters/Jump/ruby_jump_31.png",
+      "width": 256,
+      "height": 256
+    },
+    {
+      "source": "Characters/Jump_Catch/frames_256/ruby_jump_32.png",
+      "unity": "Textures/Characters/Jump/ruby_jump_32.png",
+      "width": 256,
+      "height": 256
+    },
+    {
+      "source": "Characters/Jump_Catch/frames_256/ruby_jump_33.png",
+      "unity": "Textures/Characters/Jump/ruby_jump_33.png",
+      "width": 256,
+      "height": 256
+    },
+    {
+      "source": "Characters/Jump_Catch/frames_256/ruby_jump_34.png",
+      "unity": "Textures/Characters/Jump/ruby_jump_34.png",
+      "width": 256,
+      "height": 256
+    },
+    {
+      "source": "Characters/Jump_Catch/frames_256/ruby_jump_35.png",
+      "unity": "Textures/Characters/Jump/ruby_jump_35.png",
+      "width": 256,
+      "height": 256
+    },
+    {
+      "source": "Characters/Jump_Catch/frames_256/ruby_jump_36.png",
+      "unity": "Textures/Characters/Jump/ruby_jump_36.png",
+      "width": 256,
+      "height": 256
+    },
+    {
+      "source": "Characters/Jump_Catch/frames_256/ruby_jump_37.png",
+      "unity": "Textures/Characters/Jump/ruby_jump_37.png",
+      "width": 256,
+      "height": 256
+    },
+    {
+      "source": "Characters/Jump_Catch/frames_256/ruby_jump_38.png",
+      "unity": "Textures/Characters/Jump/ruby_jump_38.png",
+      "width": 256,
+      "height": 256
+    },
+    {
+      "source": "Characters/Jump_Catch/frames_256/ruby_jump_39.png",
+      "unity": "Textures/Characters/Jump/ruby_jump_39.png",
+      "width": 256,
+      "height": 256
+    },
+    {
+      "source": "Characters/Jump_Catch/frames_256/ruby_jump_40.png",
+      "unity": "Textures/Characters/Jump/ruby_jump_40.png",
+      "width": 256,
+      "height": 256
+    },
+    {
+      "source": "Characters/Jump_Catch/frames_256/ruby_jump_41.png",
+      "unity": "Textures/Characters/Jump/ruby_jump_41.png",
+      "width": 256,
+      "height": 256
+    },
+    {
+      "source": "Characters/Jump_Catch/frames_256/ruby_jump_42.png",
+      "unity": "Textures/Characters/Jump/ruby_jump_42.png",
+      "width": 256,
+      "height": 256
+    },
+    {
+      "source": "Characters/Jump_Catch/frames_256/ruby_jump_43.png",
+      "unity": "Textures/Characters/Jump/ruby_jump_43.png",
+      "width": 256,
+      "height": 256
+    },
+    {
+      "source": "Characters/Jump_Catch/frames_256/ruby_jump_44.png",
+      "unity": "Textures/Characters/Jump/ruby_jump_44.png",
+      "width": 256,
+      "height": 256
+    },
+    {
+      "source": "Characters/Jump_Catch/frames_256/ruby_jump_45.png",
+      "unity": "Textures/Characters/Jump/ruby_jump_45.png",
+      "width": 256,
+      "height": 256
+    },
+    {
+      "source": "Characters/Jump_Catch/frames_256/ruby_jump_46.png",
+      "unity": "Textures/Characters/Jump/ruby_jump_46.png",
+      "width": 256,
+      "height": 256
+    },
+    {
+      "source": "Characters/Jump_Catch/frames_256/ruby_jump_47.png",
+      "unity": "Textures/Characters/Jump/ruby_jump_47.png",
+      "width": 256,
+      "height": 256
+    },
+    {
+      "source": "Characters/Sit_Stand_GroundCatch/exports/frames_256/ruby_000.png",
+      "unity": "Textures/Characters/SitStand/ruby_000.png",
+      "width": 256,
+      "height": 256
+    },
+    {
+      "source": "Characters/Sit_Stand_GroundCatch/exports/frames_256/ruby_002.png",
+      "unity": "Textures/Characters/SitStand/ruby_002.png",
+      "width": 256,
+      "height": 256
+    },
+    {
+      "source": "Characters/Sit_Stand_GroundCatch/exports/frames_256/ruby_004.png",
+      "unity": "Textures/Characters/SitStand/ruby_004.png",
+      "width": 256,
+      "height": 256
+    },
+    {
+      "source": "Characters/Sit_Stand_GroundCatch/exports/frames_256/ruby_006.png",
+      "unity": "Textures/Characters/SitStand/ruby_006.png",
+      "width": 256,
+      "height": 256
+    },
+    {
+      "source": "Characters/Sit_Stand_GroundCatch/exports/frames_256/ruby_008.png",
+      "unity": "Textures/Characters/SitStand/ruby_008.png",
+      "width": 256,
+      "height": 256
+    },
+    {
+      "source": "Characters/Sit_Stand_GroundCatch/exports/frames_256/ruby_010.png",
+      "unity": "Textures/Characters/SitStand/ruby_010.png",
+      "width": 256,
+      "height": 256
+    },
+    {
+      "source": "Characters/Sit_Stand_GroundCatch/exports/frames_256/ruby_012.png",
+      "unity": "Textures/Characters/SitStand/ruby_012.png",
+      "width": 256,
+      "height": 256
+    },
+    {
+      "source": "Characters/Sit_Stand_GroundCatch/exports/frames_256/ruby_014.png",
+      "unity": "Textures/Characters/SitStand/ruby_014.png",
+      "width": 256,
+      "height": 256
+    },
+    {
+      "source": "Characters/Sit_Stand_GroundCatch/exports/frames_256/ruby_016.png",
+      "unity": "Textures/Characters/SitStand/ruby_016.png",
+      "width": 256,
+      "height": 256
+    },
+    {
+      "source": "Characters/Sit_Stand_GroundCatch/exports/frames_256/ruby_018.png",
+      "unity": "Textures/Characters/SitStand/ruby_018.png",
+      "width": 256,
+      "height": 256
+    },
+    {
+      "source": "Characters/Sit_Stand_GroundCatch/exports/frames_256/ruby_020.png",
+      "unity": "Textures/Characters/SitStand/ruby_020.png",
+      "width": 256,
+      "height": 256
+    },
+    {
+      "source": "Characters/Sit_Stand_GroundCatch/exports/frames_256/ruby_022.png",
+      "unity": "Textures/Characters/SitStand/ruby_022.png",
+      "width": 256,
+      "height": 256
+    },
+    {
+      "source": "Characters/Sit_Stand_GroundCatch/exports/frames_256/ruby_024.png",
+      "unity": "Textures/Characters/SitStand/ruby_024.png",
+      "width": 256,
+      "height": 256
+    },
+    {
+      "source": "Characters/Sit_Stand_GroundCatch/exports/frames_256/ruby_026.png",
+      "unity": "Textures/Characters/SitStand/ruby_026.png",
+      "width": 256,
+      "height": 256
+    },
+    {
+      "source": "Characters/Sit_Stand_GroundCatch/exports/frames_256/ruby_028.png",
+      "unity": "Textures/Characters/SitStand/ruby_028.png",
+      "width": 256,
+      "height": 256
+    },
+    {
+      "source": "Characters/Sit_Stand_GroundCatch/exports/frames_256/ruby_030.png",
+      "unity": "Textures/Characters/SitStand/ruby_030.png",
+      "width": 256,
+      "height": 256
+    },
+    {
+      "source": "Characters/Sit_Stand_GroundCatch/exports/frames_256/ruby_032.png",
+      "unity": "Textures/Characters/SitStand/ruby_032.png",
+      "width": 256,
+      "height": 256
+    },
+    {
+      "source": "Characters/Sit_Stand_GroundCatch/exports/frames_256/ruby_034.png",
+      "unity": "Textures/Characters/SitStand/ruby_034.png",
+      "width": 256,
+      "height": 256
+    },
+    {
+      "source": "Characters/Sit_Stand_GroundCatch/exports/frames_256/ruby_036.png",
+      "unity": "Textures/Characters/SitStand/ruby_036.png",
+      "width": 256,
+      "height": 256
+    },
+    {
+      "source": "Characters/Sit_Stand_GroundCatch/exports/frames_256/ruby_038.png",
+      "unity": "Textures/Characters/SitStand/ruby_038.png",
+      "width": 256,
+      "height": 256
+    },
+    {
+      "source": "Characters/Sit_Stand_GroundCatch/exports/frames_256/ruby_040.png",
+      "unity": "Textures/Characters/SitStand/ruby_040.png",
+      "width": 256,
+      "height": 256
+    },
+    {
+      "source": "Characters/Sit_Stand_GroundCatch/exports/frames_256/ruby_042.png",
+      "unity": "Textures/Characters/SitStand/ruby_042.png",
+      "width": 256,
+      "height": 256
+    },
+    {
+      "source": "Characters/Sit_Stand_GroundCatch/exports/frames_256/ruby_044.png",
+      "unity": "Textures/Characters/SitStand/ruby_044.png",
+      "width": 256,
+      "height": 256
+    },
+    {
+      "source": "Characters/Sit_Stand_GroundCatch/exports/frames_256/ruby_046.png",
+      "unity": "Textures/Characters/SitStand/ruby_046.png",
+      "width": 256,
+      "height": 256
+    },
+    {
+      "source": "Characters/Sit_Stand_GroundCatch/exports/frames_256/ruby_048.png",
+      "unity": "Textures/Characters/SitStand/ruby_048.png",
+      "width": 256,
+      "height": 256
+    },
+    {
+      "source": "Characters/Sit_Stand_GroundCatch/exports/frames_256/ruby_050.png",
+      "unity": "Textures/Characters/SitStand/ruby_050.png",
+      "width": 256,
+      "height": 256
+    },
+    {
+      "source": "Characters/Sit_Stand_GroundCatch/exports/frames_256/ruby_052.png",
+      "unity": "Textures/Characters/SitStand/ruby_052.png",
+      "width": 256,
+      "height": 256
+    },
+    {
+      "source": "Characters/Sit_Stand_GroundCatch/exports/frames_256/ruby_054.png",
+      "unity": "Textures/Characters/SitStand/ruby_054.png",
+      "width": 256,
+      "height": 256
+    },
+    {
+      "source": "Characters/Sit_Stand_GroundCatch/exports/frames_256/ruby_056.png",
+      "unity": "Textures/Characters/SitStand/ruby_056.png",
+      "width": 256,
+      "height": 256
+    },
+    {
+      "source": "Characters/Sit_Stand_GroundCatch/exports/frames_256/ruby_058.png",
+      "unity": "Textures/Characters/SitStand/ruby_058.png",
+      "width": 256,
+      "height": 256
+    },
+    {
+      "source": "Characters/Sit_Stand_GroundCatch/exports/frames_256/ruby_060.png",
+      "unity": "Textures/Characters/SitStand/ruby_060.png",
+      "width": 256,
+      "height": 256
+    },
+    {
+      "source": "Characters/Sit_Stand_GroundCatch/exports/frames_256/ruby_062.png",
+      "unity": "Textures/Characters/SitStand/ruby_062.png",
+      "width": 256,
+      "height": 256
+    },
+    {
+      "source": "Characters/Sit_Stand_GroundCatch/exports/frames_256/ruby_064.png",
+      "unity": "Textures/Characters/SitStand/ruby_064.png",
+      "width": 256,
+      "height": 256
+    },
+    {
+      "source": "Characters/Sit_Stand_GroundCatch/exports/frames_256/ruby_066.png",
+      "unity": "Textures/Characters/SitStand/ruby_066.png",
+      "width": 256,
+      "height": 256
+    },
+    {
+      "source": "Characters/Sit_Stand_GroundCatch/exports/frames_256/ruby_068.png",
+      "unity": "Textures/Characters/SitStand/ruby_068.png",
+      "width": 256,
+      "height": 256
+    },
+    {
+      "source": "Characters/Sit_Stand_GroundCatch/exports/frames_256/ruby_070.png",
+      "unity": "Textures/Characters/SitStand/ruby_070.png",
+      "width": 256,
+      "height": 256
+    },
+    {
+      "source": "Characters/Sit_Stand_GroundCatch/exports/frames_256/ruby_072.png",
+      "unity": "Textures/Characters/SitStand/ruby_072.png",
+      "width": 256,
+      "height": 256
+    },
+    {
+      "source": "Characters/Sit_Stand_GroundCatch/exports/frames_256/ruby_074.png",
+      "unity": "Textures/Characters/SitStand/ruby_074.png",
+      "width": 256,
+      "height": 256
+    },
+    {
+      "source": "Characters/Sit_Stand_GroundCatch/exports/frames_256/ruby_076.png",
+      "unity": "Textures/Characters/SitStand/ruby_076.png",
+      "width": 256,
+      "height": 256
+    },
+    {
+      "source": "Characters/Sit_Stand_GroundCatch/exports/frames_256/ruby_078.png",
+      "unity": "Textures/Characters/SitStand/ruby_078.png",
+      "width": 256,
+      "height": 256
+    },
+    {
+      "source": "Characters/Sit_Stand_GroundCatch/exports/frames_256/ruby_080.png",
+      "unity": "Textures/Characters/SitStand/ruby_080.png",
+      "width": 256,
+      "height": 256
+    },
+    {
+      "source": "Characters/Sit_Stand_GroundCatch/exports/frames_256/ruby_082.png",
+      "unity": "Textures/Characters/SitStand/ruby_082.png",
+      "width": 256,
+      "height": 256
+    },
+    {
+      "source": "Characters/Sit_Stand_GroundCatch/exports/frames_256/ruby_084.png",
+      "unity": "Textures/Characters/SitStand/ruby_084.png",
+      "width": 256,
+      "height": 256
+    },
+    {
+      "source": "Characters/Sit_Stand_GroundCatch/exports/frames_256/ruby_086.png",
+      "unity": "Textures/Characters/SitStand/ruby_086.png",
+      "width": 256,
+      "height": 256
+    },
+    {
+      "source": "Characters/Sit_Stand_GroundCatch/exports/frames_256/ruby_088.png",
+      "unity": "Textures/Characters/SitStand/ruby_088.png",
+      "width": 256,
+      "height": 256
+    },
+    {
+      "source": "Characters/Sit_Stand_GroundCatch/exports/frames_256/ruby_090.png",
+      "unity": "Textures/Characters/SitStand/ruby_090.png",
+      "width": 256,
+      "height": 256
+    },
+    {
+      "source": "Characters/Sit_Stand_GroundCatch/exports/frames_256/ruby_092.png",
+      "unity": "Textures/Characters/SitStand/ruby_092.png",
+      "width": 256,
+      "height": 256
+    },
+    {
+      "source": "Characters/Sit_Stand_GroundCatch/exports/frames_256/ruby_094.png",
+      "unity": "Textures/Characters/SitStand/ruby_094.png",
+      "width": 256,
+      "height": 256
+    },
+    {
+      "source": "Characters/Sit_Stand_GroundCatch/exports/frames_256/ruby_096.png",
+      "unity": "Textures/Characters/SitStand/ruby_096.png",
+      "width": 256,
+      "height": 256
+    },
+    {
+      "source": "Characters/Sit_Stand_GroundCatch/exports/frames_256/ruby_098.png",
+      "unity": "Textures/Characters/SitStand/ruby_098.png",
+      "width": 256,
+      "height": 256
+    },
+    {
+      "source": "Characters/Sit_Stand_GroundCatch/exports/frames_256/ruby_100.png",
+      "unity": "Textures/Characters/SitStand/ruby_100.png",
+      "width": 256,
+      "height": 256
+    },
+    {
+      "source": "Characters/Sit_Stand_GroundCatch/exports/frames_256/ruby_102.png",
+      "unity": "Textures/Characters/SitStand/ruby_102.png",
+      "width": 256,
+      "height": 256
+    },
+    {
+      "source": "Characters/Sit_Stand_GroundCatch/exports/frames_256/ruby_104.png",
+      "unity": "Textures/Characters/SitStand/ruby_104.png",
+      "width": 256,
+      "height": 256
+    },
+    {
+      "source": "Characters/Sit_Stand_GroundCatch/exports/frames_256/ruby_106.png",
+      "unity": "Textures/Characters/SitStand/ruby_106.png",
+      "width": 256,
+      "height": 256
+    },
+    {
+      "source": "Characters/Sit_Stand_GroundCatch/exports/frames_256/ruby_108.png",
+      "unity": "Textures/Characters/SitStand/ruby_108.png",
+      "width": 256,
+      "height": 256
+    },
+    {
+      "source": "Characters/Sit_Stand_GroundCatch/exports/frames_256/ruby_110.png",
+      "unity": "Textures/Characters/SitStand/ruby_110.png",
+      "width": 256,
+      "height": 256
+    },
+    {
+      "source": "Characters/Sit_Stand_GroundCatch/exports/frames_256/ruby_112.png",
+      "unity": "Textures/Characters/SitStand/ruby_112.png",
+      "width": 256,
+      "height": 256
+    },
+    {
+      "source": "Characters/Sit_Stand_GroundCatch/exports/frames_256/ruby_114.png",
+      "unity": "Textures/Characters/SitStand/ruby_114.png",
+      "width": 256,
+      "height": 256
+    },
+    {
+      "source": "Characters/Sit_Stand_GroundCatch/exports/frames_256/ruby_116.png",
+      "unity": "Textures/Characters/SitStand/ruby_116.png",
+      "width": 256,
+      "height": 256
+    },
+    {
+      "source": "Characters/Sit_Stand_GroundCatch/exports/frames_256/ruby_118.png",
+      "unity": "Textures/Characters/SitStand/ruby_118.png",
+      "width": 256,
+      "height": 256
+    },
+    {
+      "source": "Characters/Sit_Stand_GroundCatch/exports/frames_256/ruby_120.png",
+      "unity": "Textures/Characters/SitStand/ruby_120.png",
+      "width": 256,
+      "height": 256
+    },
+    {
+      "source": "Characters/Sit_Stand_GroundCatch/exports/frames_256/ruby_122.png",
+      "unity": "Textures/Characters/SitStand/ruby_122.png",
+      "width": 256,
+      "height": 256
+    },
+    {
+      "source": "Characters/Sit_Stand_GroundCatch/exports/frames_256/ruby_124.png",
+      "unity": "Textures/Characters/SitStand/ruby_124.png",
+      "width": 256,
+      "height": 256
+    },
+    {
+      "source": "Characters/Sit_Stand_GroundCatch/exports/frames_256/ruby_126.png",
+      "unity": "Textures/Characters/SitStand/ruby_126.png",
+      "width": 256,
+      "height": 256
+    },
+    {
+      "source": "Characters/Sit_Stand_GroundCatch/exports/frames_256/ruby_128.png",
+      "unity": "Textures/Characters/SitStand/ruby_128.png",
+      "width": 256,
+      "height": 256
+    },
+    {
+      "source": "Characters/Sit_Stand_GroundCatch/exports/frames_256/ruby_130.png",
+      "unity": "Textures/Characters/SitStand/ruby_130.png",
+      "width": 256,
+      "height": 256
+    },
+    {
+      "source": "Characters/Sit_Stand_GroundCatch/exports/frames_256/ruby_132.png",
+      "unity": "Textures/Characters/SitStand/ruby_132.png",
+      "width": 256,
+      "height": 256
+    },
+    {
+      "source": "Characters/Sit_Stand_GroundCatch/exports/frames_256/ruby_134.png",
+      "unity": "Textures/Characters/SitStand/ruby_134.png",
+      "width": 256,
+      "height": 256
+    },
+    {
+      "source": "Characters/Sit_Stand_GroundCatch/exports/frames_256/ruby_136.png",
+      "unity": "Textures/Characters/SitStand/ruby_136.png",
+      "width": 256,
+      "height": 256
+    },
+    {
+      "source": "Characters/Sit_Stand_GroundCatch/exports/frames_256/ruby_138.png",
+      "unity": "Textures/Characters/SitStand/ruby_138.png",
+      "width": 256,
+      "height": 256
+    },
+    {
+      "source": "Characters/Sit_Stand_GroundCatch/exports/frames_256/ruby_140.png",
+      "unity": "Textures/Characters/SitStand/ruby_140.png",
+      "width": 256,
+      "height": 256
+    },
+    {
+      "source": "Characters/Sit_Stand_GroundCatch/exports/frames_256/ruby_142.png",
+      "unity": "Textures/Characters/SitStand/ruby_142.png",
+      "width": 256,
+      "height": 256
+    },
+    {
+      "source": "Characters/Sit_Stand_GroundCatch/exports/frames_256/ruby_144.png",
+      "unity": "Textures/Characters/SitStand/ruby_144.png",
+      "width": 256,
+      "height": 256
+    },
+    {
+      "source": "Characters/Sit_Stand_GroundCatch/exports/frames_256/ruby_146.png",
+      "unity": "Textures/Characters/SitStand/ruby_146.png",
+      "width": 256,
+      "height": 256
+    },
+    {
+      "source": "Characters/Sit_Stand_GroundCatch/exports/frames_256/ruby_148.png",
+      "unity": "Textures/Characters/SitStand/ruby_148.png",
+      "width": 256,
+      "height": 256
+    },
+    {
+      "source": "Characters/Sit_Stand_GroundCatch/exports/frames_256/ruby_150.png",
+      "unity": "Textures/Characters/SitStand/ruby_150.png",
+      "width": 256,
+      "height": 256
+    },
+    {
+      "source": "Characters/Sit_Stand_GroundCatch/exports/frames_256/ruby_152.png",
+      "unity": "Textures/Characters/SitStand/ruby_152.png",
+      "width": 256,
+      "height": 256
+    },
+    {
+      "source": "Characters/Sit_Stand_GroundCatch/exports/frames_256/ruby_154.png",
+      "unity": "Textures/Characters/SitStand/ruby_154.png",
+      "width": 256,
+      "height": 256
+    },
+    {
+      "source": "Characters/Sit_Stand_GroundCatch/exports/frames_256/ruby_156.png",
+      "unity": "Textures/Characters/SitStand/ruby_156.png",
+      "width": 256,
+      "height": 256
+    },
+    {
+      "source": "Characters/Sit_Stand_GroundCatch/exports/frames_256/ruby_158.png",
+      "unity": "Textures/Characters/SitStand/ruby_158.png",
+      "width": 256,
+      "height": 256
+    },
+    {
+      "source": "Characters/Sit_Stand_GroundCatch/exports/frames_256/ruby_160.png",
+      "unity": "Textures/Characters/SitStand/ruby_160.png",
+      "width": 256,
+      "height": 256
+    },
+    {
+      "source": "Characters/Sit_Stand_GroundCatch/exports/frames_256/ruby_162.png",
+      "unity": "Textures/Characters/SitStand/ruby_162.png",
+      "width": 256,
+      "height": 256
+    },
+    {
+      "source": "Characters/Sit_Stand_GroundCatch/exports/frames_256/ruby_164.png",
+      "unity": "Textures/Characters/SitStand/ruby_164.png",
+      "width": 256,
+      "height": 256
+    },
+    {
+      "source": "Characters/Sit_Stand_GroundCatch/exports/frames_256/ruby_166.png",
+      "unity": "Textures/Characters/SitStand/ruby_166.png",
+      "width": 256,
+      "height": 256
+    },
+    {
+      "source": "Characters/Sit_Stand_GroundCatch/exports/frames_256/ruby_168.png",
+      "unity": "Textures/Characters/SitStand/ruby_168.png",
+      "width": 256,
+      "height": 256
+    },
+    {
+      "source": "Characters/Sit_Stand_GroundCatch/exports/frames_256/ruby_170.png",
+      "unity": "Textures/Characters/SitStand/ruby_170.png",
+      "width": 256,
+      "height": 256
+    },
+    {
+      "source": "Characters/Sit_Stand_GroundCatch/exports/frames_256/ruby_172.png",
+      "unity": "Textures/Characters/SitStand/ruby_172.png",
+      "width": 256,
+      "height": 256
+    },
+    {
+      "source": "Characters/Sit_Stand_GroundCatch/exports/frames_256/ruby_174.png",
+      "unity": "Textures/Characters/SitStand/ruby_174.png",
+      "width": 256,
+      "height": 256
+    },
+    {
+      "source": "Characters/Sit_Stand_GroundCatch/exports/frames_256/ruby_176.png",
+      "unity": "Textures/Characters/SitStand/ruby_176.png",
+      "width": 256,
+      "height": 256
+    },
+    {
+      "source": "Characters/Sit_Stand_GroundCatch/exports/frames_256/ruby_178.png",
+      "unity": "Textures/Characters/SitStand/ruby_178.png",
+      "width": 256,
+      "height": 256
+    },
+    {
+      "source": "Characters/Sit_Stand_GroundCatch/exports/frames_256/ruby_180.png",
+      "unity": "Textures/Characters/SitStand/ruby_180.png",
+      "width": 256,
+      "height": 256
+    },
+    {
+      "source": "Characters/Sit_Stand_GroundCatch/exports/frames_256/ruby_182.png",
+      "unity": "Textures/Characters/SitStand/ruby_182.png",
+      "width": 256,
+      "height": 256
+    },
+    {
+      "source": "Characters/Sit_Stand_GroundCatch/exports/frames_256/ruby_184.png",
+      "unity": "Textures/Characters/SitStand/ruby_184.png",
+      "width": 256,
+      "height": 256
+    },
+    {
+      "source": "Characters/Reactions/exports/frames_256/ruby_000.png",
+      "unity": "Textures/Characters/Reactions/ruby_000.png",
+      "width": 256,
+      "height": 256
+    },
+    {
+      "source": "Characters/Reactions/exports/frames_256/ruby_002.png",
+      "unity": "Textures/Characters/Reactions/ruby_002.png",
+      "width": 256,
+      "height": 256
+    },
+    {
+      "source": "Characters/Reactions/exports/frames_256/ruby_004.png",
+      "unity": "Textures/Characters/Reactions/ruby_004.png",
+      "width": 256,
+      "height": 256
+    },
+    {
+      "source": "Characters/Reactions/exports/frames_256/ruby_006.png",
+      "unity": "Textures/Characters/Reactions/ruby_006.png",
+      "width": 256,
+      "height": 256
+    },
+    {
+      "source": "Characters/Reactions/exports/frames_256/ruby_008.png",
+      "unity": "Textures/Characters/Reactions/ruby_008.png",
+      "width": 256,
+      "height": 256
+    },
+    {
+      "source": "Characters/Reactions/exports/frames_256/ruby_010.png",
+      "unity": "Textures/Characters/Reactions/ruby_010.png",
+      "width": 256,
+      "height": 256
+    },
+    {
+      "source": "Characters/Reactions/exports/frames_256/ruby_012.png",
+      "unity": "Textures/Characters/Reactions/ruby_012.png",
+      "width": 256,
+      "height": 256
+    },
+    {
+      "source": "Characters/Reactions/exports/frames_256/ruby_014.png",
+      "unity": "Textures/Characters/Reactions/ruby_014.png",
+      "width": 256,
+      "height": 256
+    },
+    {
+      "source": "Characters/Reactions/exports/frames_256/ruby_016.png",
+      "unity": "Textures/Characters/Reactions/ruby_016.png",
+      "width": 256,
+      "height": 256
+    },
+    {
+      "source": "Characters/Reactions/exports/frames_256/ruby_018.png",
+      "unity": "Textures/Characters/Reactions/ruby_018.png",
+      "width": 256,
+      "height": 256
+    },
+    {
+      "source": "Characters/Reactions/exports/frames_256/ruby_020.png",
+      "unity": "Textures/Characters/Reactions/ruby_020.png",
+      "width": 256,
+      "height": 256
+    },
+    {
+      "source": "Characters/Reactions/exports/frames_256/ruby_022.png",
+      "unity": "Textures/Characters/Reactions/ruby_022.png",
+      "width": 256,
+      "height": 256
+    },
+    {
+      "source": "Characters/Reactions/exports/frames_256/ruby_024.png",
+      "unity": "Textures/Characters/Reactions/ruby_024.png",
+      "width": 256,
+      "height": 256
+    },
+    {
+      "source": "Characters/Reactions/exports/frames_256/ruby_026.png",
+      "unity": "Textures/Characters/Reactions/ruby_026.png",
+      "width": 256,
+      "height": 256
+    },
+    {
+      "source": "Characters/Reactions/exports/frames_256/ruby_028.png",
+      "unity": "Textures/Characters/Reactions/ruby_028.png",
+      "width": 256,
+      "height": 256
+    },
+    {
+      "source": "Characters/Reactions/exports/frames_256/ruby_030.png",
+      "unity": "Textures/Characters/Reactions/ruby_030.png",
+      "width": 256,
+      "height": 256
+    },
+    {
+      "source": "Characters/Reactions/exports/frames_256/ruby_032.png",
+      "unity": "Textures/Characters/Reactions/ruby_032.png",
+      "width": 256,
+      "height": 256
+    },
+    {
+      "source": "Characters/Reactions/exports/frames_256/ruby_034.png",
+      "unity": "Textures/Characters/Reactions/ruby_034.png",
+      "width": 256,
+      "height": 256
+    },
+    {
+      "source": "Characters/Reactions/exports/frames_256/ruby_036.png",
+      "unity": "Textures/Characters/Reactions/ruby_036.png",
+      "width": 256,
+      "height": 256
+    },
+    {
+      "source": "Characters/Reactions/exports/frames_256/ruby_038.png",
+      "unity": "Textures/Characters/Reactions/ruby_038.png",
+      "width": 256,
+      "height": 256
+    },
+    {
+      "source": "Characters/Reactions/exports/frames_256/ruby_040.png",
+      "unity": "Textures/Characters/Reactions/ruby_040.png",
+      "width": 256,
+      "height": 256
+    },
+    {
+      "source": "Characters/Reactions/exports/frames_256/ruby_042.png",
+      "unity": "Textures/Characters/Reactions/ruby_042.png",
+      "width": 256,
+      "height": 256
+    },
+    {
+      "source": "Characters/Reactions/exports/frames_256/ruby_044.png",
+      "unity": "Textures/Characters/Reactions/ruby_044.png",
+      "width": 256,
+      "height": 256
+    },
+    {
+      "source": "Characters/Reactions/exports/frames_256/ruby_046.png",
+      "unity": "Textures/Characters/Reactions/ruby_046.png",
+      "width": 256,
+      "height": 256
+    },
+    {
+      "source": "Characters/Reactions/exports/frames_256/ruby_048.png",
+      "unity": "Textures/Characters/Reactions/ruby_048.png",
+      "width": 256,
+      "height": 256
+    },
+    {
+      "source": "Characters/Reactions/exports/frames_256/ruby_050.png",
+      "unity": "Textures/Characters/Reactions/ruby_050.png",
+      "width": 256,
+      "height": 256
+    },
+    {
+      "source": "Characters/Reactions/exports/frames_256/ruby_052.png",
+      "unity": "Textures/Characters/Reactions/ruby_052.png",
+      "width": 256,
+      "height": 256
+    },
+    {
+      "source": "Characters/Reactions/exports/frames_256/ruby_054.png",
+      "unity": "Textures/Characters/Reactions/ruby_054.png",
+      "width": 256,
+      "height": 256
+    },
+    {
+      "source": "Characters/Reactions/exports/frames_256/ruby_056.png",
+      "unity": "Textures/Characters/Reactions/ruby_056.png",
+      "width": 256,
+      "height": 256
+    },
+    {
+      "source": "Characters/Reactions/exports/frames_256/ruby_058.png",
+      "unity": "Textures/Characters/Reactions/ruby_058.png",
+      "width": 256,
+      "height": 256
+    },
+    {
+      "source": "Characters/Reactions/exports/frames_256/ruby_060.png",
+      "unity": "Textures/Characters/Reactions/ruby_060.png",
+      "width": 256,
+      "height": 256
+    },
+    {
+      "source": "Characters/Reactions/exports/frames_256/ruby_062.png",
+      "unity": "Textures/Characters/Reactions/ruby_062.png",
+      "width": 256,
+      "height": 256
+    },
+    {
+      "source": "Characters/Reactions/exports/frames_256/ruby_064.png",
+      "unity": "Textures/Characters/Reactions/ruby_064.png",
+      "width": 256,
+      "height": 256
+    },
+    {
+      "source": "Characters/Reactions/exports/frames_256/ruby_066.png",
+      "unity": "Textures/Characters/Reactions/ruby_066.png",
+      "width": 256,
+      "height": 256
+    },
+    {
+      "source": "Characters/Reactions/exports/frames_256/ruby_068.png",
+      "unity": "Textures/Characters/Reactions/ruby_068.png",
+      "width": 256,
+      "height": 256
+    },
+    {
+      "source": "Characters/Reactions/exports/frames_256/ruby_070.png",
+      "unity": "Textures/Characters/Reactions/ruby_070.png",
+      "width": 256,
+      "height": 256
+    },
+    {
+      "source": "Characters/Reactions/exports/frames_256/ruby_072.png",
+      "unity": "Textures/Characters/Reactions/ruby_072.png",
+      "width": 256,
+      "height": 256
+    },
+    {
+      "source": "Characters/Reactions/exports/frames_256/ruby_074.png",
+      "unity": "Textures/Characters/Reactions/ruby_074.png",
+      "width": 256,
+      "height": 256
+    },
+    {
+      "source": "Characters/Reactions/exports/frames_256/ruby_076.png",
+      "unity": "Textures/Characters/Reactions/ruby_076.png",
+      "width": 256,
+      "height": 256
+    },
+    {
+      "source": "Characters/Reactions/exports/frames_256/ruby_078.png",
+      "unity": "Textures/Characters/Reactions/ruby_078.png",
+      "width": 256,
+      "height": 256
+    },
+    {
+      "source": "Characters/Reactions/exports/frames_256/ruby_080.png",
+      "unity": "Textures/Characters/Reactions/ruby_080.png",
+      "width": 256,
+      "height": 256
+    },
+    {
+      "source": "Characters/Reactions/exports/frames_256/ruby_082.png",
+      "unity": "Textures/Characters/Reactions/ruby_082.png",
+      "width": 256,
+      "height": 256
+    },
+    {
+      "source": "Characters/Reactions/exports/frames_256/ruby_084.png",
+      "unity": "Textures/Characters/Reactions/ruby_084.png",
+      "width": 256,
+      "height": 256
+    },
+    {
+      "source": "Characters/Reactions/exports/frames_256/ruby_086.png",
+      "unity": "Textures/Characters/Reactions/ruby_086.png",
+      "width": 256,
+      "height": 256
+    },
+    {
+      "source": "Characters/Reactions/exports/frames_256/ruby_088.png",
+      "unity": "Textures/Characters/Reactions/ruby_088.png",
+      "width": 256,
+      "height": 256
+    },
+    {
+      "source": "Characters/Reactions/exports/frames_256/ruby_090.png",
+      "unity": "Textures/Characters/Reactions/ruby_090.png",
+      "width": 256,
+      "height": 256
+    },
+    {
+      "source": "Characters/Reactions/exports/frames_256/ruby_092.png",
+      "unity": "Textures/Characters/Reactions/ruby_092.png",
+      "width": 256,
+      "height": 256
+    },
+    {
+      "source": "Characters/Reactions/exports/frames_256/ruby_094.png",
+      "unity": "Textures/Characters/Reactions/ruby_094.png",
+      "width": 256,
+      "height": 256
+    },
+    {
+      "source": "Characters/Reactions/exports/frames_256/ruby_096.png",
+      "unity": "Textures/Characters/Reactions/ruby_096.png",
+      "width": 256,
+      "height": 256
+    },
+    {
+      "source": "Characters/Reactions/exports/frames_256/ruby_098.png",
+      "unity": "Textures/Characters/Reactions/ruby_098.png",
+      "width": 256,
+      "height": 256
+    },
+    {
+      "source": "Characters/Reactions/exports/frames_256/ruby_100.png",
+      "unity": "Textures/Characters/Reactions/ruby_100.png",
+      "width": 256,
+      "height": 256
+    },
+    {
+      "source": "Characters/Reactions/exports/frames_256/ruby_102.png",
+      "unity": "Textures/Characters/Reactions/ruby_102.png",
+      "width": 256,
+      "height": 256
+    },
+    {
+      "source": "Characters/Reactions/exports/frames_256/ruby_104.png",
+      "unity": "Textures/Characters/Reactions/ruby_104.png",
+      "width": 256,
+      "height": 256
+    },
+    {
+      "source": "Characters/Reactions/exports/frames_256/ruby_106.png",
+      "unity": "Textures/Characters/Reactions/ruby_106.png",
+      "width": 256,
+      "height": 256
+    },
+    {
+      "source": "Characters/Reactions/exports/frames_256/ruby_108.png",
+      "unity": "Textures/Characters/Reactions/ruby_108.png",
+      "width": 256,
+      "height": 256
+    },
+    {
+      "source": "Characters/Reactions/exports/frames_256/ruby_110.png",
+      "unity": "Textures/Characters/Reactions/ruby_110.png",
+      "width": 256,
+      "height": 256
+    },
+    {
+      "source": "Characters/Reactions/exports/frames_256/ruby_112.png",
+      "unity": "Textures/Characters/Reactions/ruby_112.png",
+      "width": 256,
+      "height": 256
+    },
+    {
+      "source": "Characters/Reactions/exports/frames_256/ruby_114.png",
+      "unity": "Textures/Characters/Reactions/ruby_114.png",
+      "width": 256,
+      "height": 256
+    },
+    {
+      "source": "Characters/Reactions/exports/frames_256/ruby_116.png",
+      "unity": "Textures/Characters/Reactions/ruby_116.png",
+      "width": 256,
+      "height": 256
+    },
+    {
+      "source": "Characters/Reactions/exports/frames_256/ruby_118.png",
+      "unity": "Textures/Characters/Reactions/ruby_118.png",
+      "width": 256,
+      "height": 256
+    },
+    {
+      "source": "Characters/Reactions/exports/frames_256/ruby_120.png",
+      "unity": "Textures/Characters/Reactions/ruby_120.png",
+      "width": 256,
+      "height": 256
+    },
+    {
+      "source": "Characters/Reactions/exports/frames_256/ruby_122.png",
+      "unity": "Textures/Characters/Reactions/ruby_122.png",
+      "width": 256,
+      "height": 256
+    },
+    {
+      "source": "Characters/Reactions/exports/frames_256/ruby_124.png",
+      "unity": "Textures/Characters/Reactions/ruby_124.png",
+      "width": 256,
+      "height": 256
+    },
+    {
+      "source": "Characters/Reactions/exports/frames_256/ruby_126.png",
+      "unity": "Textures/Characters/Reactions/ruby_126.png",
+      "width": 256,
+      "height": 256
+    },
+    {
+      "source": "Characters/Reactions/exports/frames_256/ruby_128.png",
+      "unity": "Textures/Characters/Reactions/ruby_128.png",
+      "width": 256,
+      "height": 256
+    },
+    {
+      "source": "Characters/Reactions/exports/frames_256/ruby_130.png",
+      "unity": "Textures/Characters/Reactions/ruby_130.png",
+      "width": 256,
+      "height": 256
+    },
+    {
+      "source": "Characters/Reactions/exports/frames_256/ruby_132.png",
+      "unity": "Textures/Characters/Reactions/ruby_132.png",
+      "width": 256,
+      "height": 256
+    },
+    {
+      "source": "Characters/Reactions/exports/frames_256/ruby_134.png",
+      "unity": "Textures/Characters/Reactions/ruby_134.png",
+      "width": 256,
+      "height": 256
+    },
+    {
+      "source": "Characters/Reactions/exports/frames_256/ruby_136.png",
+      "unity": "Textures/Characters/Reactions/ruby_136.png",
+      "width": 256,
+      "height": 256
+    },
+    {
+      "source": "Characters/Reactions/exports/frames_256/ruby_138.png",
+      "unity": "Textures/Characters/Reactions/ruby_138.png",
+      "width": 256,
+      "height": 256
+    },
+    {
+      "source": "Characters/Reactions/exports/frames_256/ruby_140.png",
+      "unity": "Textures/Characters/Reactions/ruby_140.png",
+      "width": 256,
+      "height": 256
+    },
+    {
+      "source": "Characters/Reactions/exports/frames_256/ruby_142.png",
+      "unity": "Textures/Characters/Reactions/ruby_142.png",
+      "width": 256,
+      "height": 256
+    },
+    {
+      "source": "Characters/Reactions/exports/frames_256/ruby_144.png",
+      "unity": "Textures/Characters/Reactions/ruby_144.png",
+      "width": 256,
+      "height": 256
+    },
+    {
+      "source": "Characters/Reactions/exports/frames_256/ruby_146.png",
+      "unity": "Textures/Characters/Reactions/ruby_146.png",
+      "width": 256,
+      "height": 256
+    },
+    {
+      "source": "Characters/Reactions/exports/frames_256/ruby_148.png",
+      "unity": "Textures/Characters/Reactions/ruby_148.png",
+      "width": 256,
+      "height": 256
+    },
+    {
+      "source": "Characters/Reactions/exports/frames_256/ruby_150.png",
+      "unity": "Textures/Characters/Reactions/ruby_150.png",
+      "width": 256,
+      "height": 256
+    },
+    {
+      "source": "Characters/Reactions/exports/frames_256/ruby_152.png",
+      "unity": "Textures/Characters/Reactions/ruby_152.png",
+      "width": 256,
+      "height": 256
+    },
+    {
+      "source": "Characters/Reactions/exports/frames_256/ruby_154.png",
+      "unity": "Textures/Characters/Reactions/ruby_154.png",
+      "width": 256,
+      "height": 256
+    },
+    {
+      "source": "Characters/Reactions/exports/frames_256/ruby_156.png",
+      "unity": "Textures/Characters/Reactions/ruby_156.png",
+      "width": 256,
+      "height": 256
+    },
+    {
+      "source": "Characters/Reactions/exports/frames_256/ruby_158.png",
+      "unity": "Textures/Characters/Reactions/ruby_158.png",
+      "width": 256,
+      "height": 256
+    },
+    {
+      "source": "Characters/Reactions/exports/frames_256/ruby_160.png",
+      "unity": "Textures/Characters/Reactions/ruby_160.png",
+      "width": 256,
+      "height": 256
+    },
+    {
+      "source": "Characters/Reactions/exports/frames_256/ruby_162.png",
+      "unity": "Textures/Characters/Reactions/ruby_162.png",
+      "width": 256,
+      "height": 256
+    },
+    {
+      "source": "Characters/Reactions/exports/frames_256/ruby_164.png",
+      "unity": "Textures/Characters/Reactions/ruby_164.png",
+      "width": 256,
+      "height": 256
+    },
+    {
+      "source": "Characters/Reactions/exports/frames_256/ruby_166.png",
+      "unity": "Textures/Characters/Reactions/ruby_166.png",
+      "width": 256,
+      "height": 256
+    },
+    {
+      "source": "Characters/Reactions/exports/frames_256/ruby_168.png",
+      "unity": "Textures/Characters/Reactions/ruby_168.png",
+      "width": 256,
+      "height": 256
+    },
+    {
+      "source": "Characters/Reactions/exports/frames_256/ruby_170.png",
+      "unity": "Textures/Characters/Reactions/ruby_170.png",
+      "width": 256,
+      "height": 256
+    },
+    {
+      "source": "Characters/Reactions/exports/frames_256/ruby_172.png",
+      "unity": "Textures/Characters/Reactions/ruby_172.png",
+      "width": 256,
+      "height": 256
+    },
+    {
+      "source": "Characters/Reactions/exports/frames_256/ruby_174.png",
+      "unity": "Textures/Characters/Reactions/ruby_174.png",
+      "width": 256,
+      "height": 256
+    },
+    {
+      "source": "Characters/Reactions/exports/frames_256/ruby_176.png",
+      "unity": "Textures/Characters/Reactions/ruby_176.png",
+      "width": 256,
+      "height": 256
+    },
+    {
+      "source": "Characters/Reactions/exports/frames_256/ruby_178.png",
+      "unity": "Textures/Characters/Reactions/ruby_178.png",
+      "width": 256,
+      "height": 256
+    },
+    {
+      "source": "Characters/Reactions/exports/frames_256/ruby_180.png",
+      "unity": "Textures/Characters/Reactions/ruby_180.png",
+      "width": 256,
+      "height": 256
+    },
+    {
+      "source": "Characters/Reactions/exports/frames_256/ruby_182.png",
+      "unity": "Textures/Characters/Reactions/ruby_182.png",
+      "width": 256,
+      "height": 256
+    },
+    {
+      "source": "Characters/Reactions/exports/frames_256/ruby_184.png",
+      "unity": "Textures/Characters/Reactions/ruby_184.png",
+      "width": 256,
+      "height": 256
+    },
+    {
+      "source": "UI/png/title_wordmark.png",
+      "unity": "Textures/UI/title_wordmark.png",
+      "width": 768,
+      "height": 320
+    },
+    {
+      "source": "UI/png/button_primary_normal.png",
+      "unity": "Textures/UI/button_primary_normal.png",
+      "width": 384,
+      "height": 112
+    },
+    {
+      "source": "UI/png/button_primary_pressed.png",
+      "unity": "Textures/UI/button_primary_pressed.png",
+      "width": 384,
+      "height": 112
+    },
+    {
+      "source": "UI/png/button_primary_disabled.png",
+      "unity": "Textures/UI/button_primary_disabled.png",
+      "width": 384,
+      "height": 112
+    },
+    {
+      "source": "UI/png/button_secondary_normal.png",
+      "unity": "Textures/UI/button_secondary_normal.png",
+      "width": 384,
+      "height": 112
+    },
+    {
+      "source": "UI/png/button_secondary_pressed.png",
+      "unity": "Textures/UI/button_secondary_pressed.png",
+      "width": 384,
+      "height": 112
+    },
+    {
+      "source": "UI/png/button_secondary_disabled.png",
+      "unity": "Textures/UI/button_secondary_disabled.png",
+      "width": 384,
+      "height": 112
+    },
+    {
+      "source": "UI/png/panel_score.png",
+      "unity": "Textures/UI/panel_score.png",
+      "width": 320,
+      "height": 128
+    },
+    {
+      "source": "UI/png/panel_combo.png",
+      "unity": "Textures/UI/panel_combo.png",
+      "width": 256,
+      "height": 128
+    },
+    {
+      "source": "UI/png/panel_menu.png",
+      "unity": "Textures/UI/panel_menu.png",
+      "width": 640,
+      "height": 640
+    },
+    {
+      "source": "UI/png/panel_game_over.png",
+      "unity": "Textures/UI/panel_game_over.png",
+      "width": 640,
+      "height": 560
+    },
+    {
+      "source": "UI/png/touch_left_normal.png",
+      "unity": "Textures/UI/touch_left_normal.png",
+      "width": 160,
+      "height": 160
+    },
+    {
+      "source": "UI/png/touch_left_pressed.png",
+      "unity": "Textures/UI/touch_left_pressed.png",
+      "width": 160,
+      "height": 160
+    },
+    {
+      "source": "UI/png/touch_right_normal.png",
+      "unity": "Textures/UI/touch_right_normal.png",
+      "width": 160,
+      "height": 160
+    },
+    {
+      "source": "UI/png/touch_right_pressed.png",
+      "unity": "Textures/UI/touch_right_pressed.png",
+      "width": 160,
+      "height": 160
+    },
+    {
+      "source": "UI/png/touch_jump_normal.png",
+      "unity": "Textures/UI/touch_jump_normal.png",
+      "width": 160,
+      "height": 160
+    },
+    {
+      "source": "UI/png/touch_jump_pressed.png",
+      "unity": "Textures/UI/touch_jump_pressed.png",
+      "width": 160,
+      "height": 160
+    },
+    {
+      "source": "UI/png/icon_pause.png",
+      "unity": "Textures/UI/icon_pause.png",
+      "width": 96,
+      "height": 96
+    },
+    {
+      "source": "UI/png/icon_play.png",
+      "unity": "Textures/UI/icon_play.png",
+      "width": 96,
+      "height": 96
+    },
+    {
+      "source": "UI/png/icon_restart.png",
+      "unity": "Textures/UI/icon_restart.png",
+      "width": 96,
+      "height": 96
+    },
+    {
+      "source": "UI/png/icon_home.png",
+      "unity": "Textures/UI/icon_home.png",
+      "width": 96,
+      "height": 96
+    },
+    {
+      "source": "UI/png/icon_sound_on.png",
+      "unity": "Textures/UI/icon_sound_on.png",
+      "width": 96,
+      "height": 96
+    },
+    {
+      "source": "UI/png/icon_sound_off.png",
+      "unity": "Textures/UI/icon_sound_off.png",
+      "width": 96,
+      "height": 96
+    },
+    {
+      "source": "UI/png/icon_music_on.png",
+      "unity": "Textures/UI/icon_music_on.png",
+      "width": 96,
+      "height": 96
+    },
+    {
+      "source": "UI/png/icon_music_off.png",
+      "unity": "Textures/UI/icon_music_off.png",
+      "width": 96,
+      "height": 96
+    },
+    {
+      "source": "UI/png/icon_paw_life_full.png",
+      "unity": "Textures/UI/icon_paw_life_full.png",
+      "width": 96,
+      "height": 96
+    },
+    {
+      "source": "UI/png/icon_paw_life_empty.png",
+      "unity": "Textures/UI/icon_paw_life_empty.png",
+      "width": 96,
+      "height": 96
+    },
+    {
+      "source": "UI/png/icon_trophy.png",
+      "unity": "Textures/UI/icon_trophy.png",
+      "width": 96,
+      "height": 96
+    },
+    {
+      "source": "UI/png/icon_high_score.png",
+      "unity": "Textures/UI/icon_high_score.png",
+      "width": 96,
+      "height": 96
+    },
+    {
+      "source": "UI/png/icon_star.png",
+      "unity": "Textures/UI/icon_star.png",
+      "width": 96,
+      "height": 96
+    },
+    {
+      "source": "UI/png/icon_combo.png",
+      "unity": "Textures/UI/icon_combo.png",
+      "width": 96,
+      "height": 96
+    },
+    {
+      "source": "UI/png/icon_ring.png",
+      "unity": "Textures/UI/icon_ring.png",
+      "width": 96,
+      "height": 96
+    },
+    {
+      "source": "Effects/frames/catch_sparkle/catch_sparkle_00.png",
+      "unity": "Textures/Effects/catch_sparkle/catch_sparkle_00.png",
+      "width": 256,
+      "height": 256
+    },
+    {
+      "source": "Effects/frames/catch_sparkle/catch_sparkle_01.png",
+      "unity": "Textures/Effects/catch_sparkle/catch_sparkle_01.png",
+      "width": 256,
+      "height": 256
+    },
+    {
+      "source": "Effects/frames/catch_sparkle/catch_sparkle_02.png",
+      "unity": "Textures/Effects/catch_sparkle/catch_sparkle_02.png",
+      "width": 256,
+      "height": 256
+    },
+    {
+      "source": "Effects/frames/catch_sparkle/catch_sparkle_03.png",
+      "unity": "Textures/Effects/catch_sparkle/catch_sparkle_03.png",
+      "width": 256,
+      "height": 256
+    },
+    {
+      "source": "Effects/frames/catch_sparkle/catch_sparkle_04.png",
+      "unity": "Textures/Effects/catch_sparkle/catch_sparkle_04.png",
+      "width": 256,
+      "height": 256
+    },
+    {
+      "source": "Effects/frames/catch_sparkle/catch_sparkle_05.png",
+      "unity": "Textures/Effects/catch_sparkle/catch_sparkle_05.png",
+      "width": 256,
+      "height": 256
+    },
+    {
+      "source": "Effects/frames/catch_sparkle/catch_sparkle_06.png",
+      "unity": "Textures/Effects/catch_sparkle/catch_sparkle_06.png",
+      "width": 256,
+      "height": 256
+    },
+    {
+      "source": "Effects/frames/catch_sparkle/catch_sparkle_07.png",
+      "unity": "Textures/Effects/catch_sparkle/catch_sparkle_07.png",
+      "width": 256,
+      "height": 256
+    },
+    {
+      "source": "Effects/frames/air_catch_burst/air_catch_burst_00.png",
+      "unity": "Textures/Effects/air_catch_burst/air_catch_burst_00.png",
+      "width": 256,
+      "height": 256
+    },
+    {
+      "source": "Effects/frames/air_catch_burst/air_catch_burst_01.png",
+      "unity": "Textures/Effects/air_catch_burst/air_catch_burst_01.png",
+      "width": 256,
+      "height": 256
+    },
+    {
+      "source": "Effects/frames/air_catch_burst/air_catch_burst_02.png",
+      "unity": "Textures/Effects/air_catch_burst/air_catch_burst_02.png",
+      "width": 256,
+      "height": 256
+    },
+    {
+      "source": "Effects/frames/air_catch_burst/air_catch_burst_03.png",
+      "unity": "Textures/Effects/air_catch_burst/air_catch_burst_03.png",
+      "width": 256,
+      "height": 256
+    },
+    {
+      "source": "Effects/frames/air_catch_burst/air_catch_burst_04.png",
+      "unity": "Textures/Effects/air_catch_burst/air_catch_burst_04.png",
+      "width": 256,
+      "height": 256
+    },
+    {
+      "source": "Effects/frames/air_catch_burst/air_catch_burst_05.png",
+      "unity": "Textures/Effects/air_catch_burst/air_catch_burst_05.png",
+      "width": 256,
+      "height": 256
+    },
+    {
+      "source": "Effects/frames/air_catch_burst/air_catch_burst_06.png",
+      "unity": "Textures/Effects/air_catch_burst/air_catch_burst_06.png",
+      "width": 256,
+      "height": 256
+    },
+    {
+      "source": "Effects/frames/air_catch_burst/air_catch_burst_07.png",
+      "unity": "Textures/Effects/air_catch_burst/air_catch_burst_07.png",
+      "width": 256,
+      "height": 256
+    },
+    {
+      "source": "Effects/frames/takeoff_grass/takeoff_grass_00.png",
+      "unity": "Textures/Effects/takeoff_grass/takeoff_grass_00.png",
+      "width": 256,
+      "height": 256
+    },
+    {
+      "source": "Effects/frames/takeoff_grass/takeoff_grass_01.png",
+      "unity": "Textures/Effects/takeoff_grass/takeoff_grass_01.png",
+      "width": 256,
+      "height": 256
+    },
+    {
+      "source": "Effects/frames/takeoff_grass/takeoff_grass_02.png",
+      "unity": "Textures/Effects/takeoff_grass/takeoff_grass_02.png",
+      "width": 256,
+      "height": 256
+    },
+    {
+      "source": "Effects/frames/takeoff_grass/takeoff_grass_03.png",
+      "unity": "Textures/Effects/takeoff_grass/takeoff_grass_03.png",
+      "width": 256,
+      "height": 256
+    },
+    {
+      "source": "Effects/frames/takeoff_grass/takeoff_grass_04.png",
+      "unity": "Textures/Effects/takeoff_grass/takeoff_grass_04.png",
+      "width": 256,
+      "height": 256
+    },
+    {
+      "source": "Effects/frames/takeoff_grass/takeoff_grass_05.png",
+      "unity": "Textures/Effects/takeoff_grass/takeoff_grass_05.png",
+      "width": 256,
+      "height": 256
+    },
+    {
+      "source": "Effects/frames/landing_dust_grass/landing_dust_grass_00.png",
+      "unity": "Textures/Effects/landing_dust_grass/landing_dust_grass_00.png",
+      "width": 256,
+      "height": 256
+    },
+    {
+      "source": "Effects/frames/landing_dust_grass/landing_dust_grass_01.png",
+      "unity": "Textures/Effects/landing_dust_grass/landing_dust_grass_01.png",
+      "width": 256,
+      "height": 256
+    },
+    {
+      "source": "Effects/frames/landing_dust_grass/landing_dust_grass_02.png",
+      "unity": "Textures/Effects/landing_dust_grass/landing_dust_grass_02.png",
+      "width": 256,
+      "height": 256
+    },
+    {
+      "source": "Effects/frames/landing_dust_grass/landing_dust_grass_03.png",
+      "unity": "Textures/Effects/landing_dust_grass/landing_dust_grass_03.png",
+      "width": 256,
+      "height": 256
+    },
+    {
+      "source": "Effects/frames/landing_dust_grass/landing_dust_grass_04.png",
+      "unity": "Textures/Effects/landing_dust_grass/landing_dust_grass_04.png",
+      "width": 256,
+      "height": 256
+    },
+    {
+      "source": "Effects/frames/landing_dust_grass/landing_dust_grass_05.png",
+      "unity": "Textures/Effects/landing_dust_grass/landing_dust_grass_05.png",
+      "width": 256,
+      "height": 256
+    },
+    {
+      "source": "Effects/frames/miss_impact_puff/miss_impact_puff_00.png",
+      "unity": "Textures/Effects/miss_impact_puff/miss_impact_puff_00.png",
+      "width": 256,
+      "height": 256
+    },
+    {
+      "source": "Effects/frames/miss_impact_puff/miss_impact_puff_01.png",
+      "unity": "Textures/Effects/miss_impact_puff/miss_impact_puff_01.png",
+      "width": 256,
+      "height": 256
+    },
+    {
+      "source": "Effects/frames/miss_impact_puff/miss_impact_puff_02.png",
+      "unity": "Textures/Effects/miss_impact_puff/miss_impact_puff_02.png",
+      "width": 256,
+      "height": 256
+    },
+    {
+      "source": "Effects/frames/miss_impact_puff/miss_impact_puff_03.png",
+      "unity": "Textures/Effects/miss_impact_puff/miss_impact_puff_03.png",
+      "width": 256,
+      "height": 256
+    },
+    {
+      "source": "Effects/frames/miss_impact_puff/miss_impact_puff_04.png",
+      "unity": "Textures/Effects/miss_impact_puff/miss_impact_puff_04.png",
+      "width": 256,
+      "height": 256
+    },
+    {
+      "source": "Effects/frames/miss_impact_puff/miss_impact_puff_05.png",
+      "unity": "Textures/Effects/miss_impact_puff/miss_impact_puff_05.png",
+      "width": 256,
+      "height": 256
+    },
+    {
+      "source": "Effects/frames/ring_flight_trail/ring_flight_trail_00.png",
+      "unity": "Textures/Effects/ring_flight_trail/ring_flight_trail_00.png",
+      "width": 256,
+      "height": 256
+    },
+    {
+      "source": "Effects/frames/ring_flight_trail/ring_flight_trail_01.png",
+      "unity": "Textures/Effects/ring_flight_trail/ring_flight_trail_01.png",
+      "width": 256,
+      "height": 256
+    },
+    {
+      "source": "Effects/frames/ring_flight_trail/ring_flight_trail_02.png",
+      "unity": "Textures/Effects/ring_flight_trail/ring_flight_trail_02.png",
+      "width": 256,
+      "height": 256
+    },
+    {
+      "source": "Effects/frames/ring_flight_trail/ring_flight_trail_03.png",
+      "unity": "Textures/Effects/ring_flight_trail/ring_flight_trail_03.png",
+      "width": 256,
+      "height": 256
+    },
+    {
+      "source": "Effects/frames/ring_flight_trail/ring_flight_trail_04.png",
+      "unity": "Textures/Effects/ring_flight_trail/ring_flight_trail_04.png",
+      "width": 256,
+      "height": 256
+    },
+    {
+      "source": "Effects/frames/ring_flight_trail/ring_flight_trail_05.png",
+      "unity": "Textures/Effects/ring_flight_trail/ring_flight_trail_05.png",
+      "width": 256,
+      "height": 256
+    },
+    {
+      "source": "Effects/frames/combo_celebration/combo_celebration_00.png",
+      "unity": "Textures/Effects/combo_celebration/combo_celebration_00.png",
+      "width": 256,
+      "height": 256
+    },
+    {
+      "source": "Effects/frames/combo_celebration/combo_celebration_01.png",
+      "unity": "Textures/Effects/combo_celebration/combo_celebration_01.png",
+      "width": 256,
+      "height": 256
+    },
+    {
+      "source": "Effects/frames/combo_celebration/combo_celebration_02.png",
+      "unity": "Textures/Effects/combo_celebration/combo_celebration_02.png",
+      "width": 256,
+      "height": 256
+    },
+    {
+      "source": "Effects/frames/combo_celebration/combo_celebration_03.png",
+      "unity": "Textures/Effects/combo_celebration/combo_celebration_03.png",
+      "width": 256,
+      "height": 256
+    },
+    {
+      "source": "Effects/frames/combo_celebration/combo_celebration_04.png",
+      "unity": "Textures/Effects/combo_celebration/combo_celebration_04.png",
+      "width": 256,
+      "height": 256
+    },
+    {
+      "source": "Effects/frames/combo_celebration/combo_celebration_05.png",
+      "unity": "Textures/Effects/combo_celebration/combo_celebration_05.png",
+      "width": 256,
+      "height": 256
+    },
+    {
+      "source": "Effects/frames/combo_celebration/combo_celebration_06.png",
+      "unity": "Textures/Effects/combo_celebration/combo_celebration_06.png",
+      "width": 256,
+      "height": 256
+    },
+    {
+      "source": "Effects/frames/combo_celebration/combo_celebration_07.png",
+      "unity": "Textures/Effects/combo_celebration/combo_celebration_07.png",
+      "width": 256,
+      "height": 256
+    },
+    {
+      "source": "Environment/layers/optimized_2048/sky.png",
+      "unity": "Textures/Environment/Sky.png",
+      "width": 2048,
+      "height": 1158
+    },
+    {
+      "source": "Environment/layers/optimized_2048/midground_runtime_clean.png",
+      "unity": "Textures/Environment/Midground.png",
+      "width": 2048,
+      "height": 1158
+    },
+    {
+      "source": "Environment/ground/grass_soil_tile_1024x256.png",
+      "unity": "Textures/Environment/Ground.png",
+      "width": 1024,
+      "height": 256
+    },
+    {
+      "source": "Environment/props/doghouse.png",
+      "unity": "Textures/Props/doghouse.png",
+      "width": 384,
+      "height": 320
+    },
+    {
+      "source": "Environment/props/water_bowl.png",
+      "unity": "Textures/Props/water_bowl.png",
+      "width": 256,
+      "height": 192
+    },
+    {
+      "source": "Environment/props/tennis_ball.png",
+      "unity": "Textures/Props/tennis_ball.png",
+      "width": 128,
+      "height": 128
+    },
+    {
+      "source": "Characters/Jump_Catch/ruby_flying_ring.png",
+      "unity": "Textures/Props/FlyingRing.png",
+      "width": 256,
+      "height": 256
+    }
+  ],
+  "selectedRun": "Original seven-frame prototype; rejected rig not included.",
+  "sourceArtUnchanged": true
+}

@@ -3,6 +3,7 @@
     "rootNamespace": "RubyFrisbee.Editor",
     "references": [
         "RubyFrisbee",
+        "RubysFrisbee.Assets.Runtime",
         "Unity.TextMeshPro",
         "Unity.InputSystem"
     ],
